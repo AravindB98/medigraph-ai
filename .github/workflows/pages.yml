@@ -29,7 +29,7 @@ jobs:
       - name: Install minimal deps and refresh demo data
         run: |
           pip install pandas numpy networkx pydantic python-dotenv
-          python scripts/export_web_demo.py
+          PYTHONPATH=. python scripts/export_web_demo.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: website

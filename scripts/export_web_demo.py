@@ -7,10 +7,15 @@ browser demo shows genuine platform output rather than hand-written mock-ups.
 from __future__ import annotations
 
 import json
+import os
+import sys
 from pathlib import Path
 
-from medigraph.connectors import CATALOG
-from medigraph.services import get_engine
+# Make the package importable when run as a script (e.g. in CI) without install.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from medigraph.connectors import CATALOG  # noqa: E402
+from medigraph.services import get_engine  # noqa: E402
 
 OUT = Path(__file__).resolve().parents[1] / "website" / "assets" / "data.json"
 MAX_PATIENTS = 48
