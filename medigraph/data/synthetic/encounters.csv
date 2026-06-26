@@ -1,0 +1,527 @@
+id,patient_id,encounter_class,start,end,provider_id,reason,length_of_stay_days,via_emergency
+enc-pat-0000-80697,pat-0000,emergency,2025-06-10T10:00:00,2025-06-10T11:00:00,prov-0012,Acute presentation,0,True
+enc-pat-0000-52487,pat-0000,ambulatory,2023-11-30T10:00:00,2023-11-30T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0000-19071,pat-0000,wellness,2024-06-08T10:00:00,2024-06-08T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0001-80292,pat-0001,ambulatory,2025-10-16T10:00:00,2025-10-16T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0001-40982,pat-0001,inpatient,2024-12-21T10:00:00,2024-12-21T11:00:00,prov-0002,Follow-up,3,False
+enc-pat-0002-67433,pat-0002,ambulatory,2025-06-14T10:00:00,2025-06-14T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0002-82512,pat-0002,virtual,2026-03-01T10:00:00,2026-03-01T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0002-46265,pat-0002,wellness,2026-03-25T10:00:00,2026-03-25T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0002-82420,pat-0002,inpatient,2026-05-22T10:00:00,2026-05-22T11:00:00,prov-0002,Follow-up,11,False
+enc-pat-0003-44237,pat-0003,ambulatory,2023-11-09T10:00:00,2023-11-09T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0003-67154,pat-0003,ambulatory,2025-10-10T10:00:00,2025-10-10T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0003-26334,pat-0003,emergency,2025-08-10T10:00:00,2025-08-10T11:00:00,prov-0011,Acute presentation,0,True
+enc-pat-0003-63528,pat-0003,ambulatory,2025-01-24T10:00:00,2025-01-24T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0003-66346,pat-0003,ambulatory,2025-08-20T10:00:00,2025-08-20T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0003-77561,pat-0003,ambulatory,2024-08-22T10:00:00,2024-08-22T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0004-53369,pat-0004,wellness,2026-04-23T10:00:00,2026-04-23T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0004-56105,pat-0004,ambulatory,2025-02-24T10:00:00,2025-02-24T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0004-97670,pat-0004,ambulatory,2026-05-29T10:00:00,2026-05-29T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0004-27786,pat-0004,wellness,2026-04-03T10:00:00,2026-04-03T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0005-58571,pat-0005,wellness,2024-12-29T10:00:00,2024-12-29T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0005-95256,pat-0005,wellness,2024-06-06T10:00:00,2024-06-06T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0005-69087,pat-0005,ambulatory,2023-11-13T10:00:00,2023-11-13T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0005-82848,pat-0005,virtual,2024-07-09T10:00:00,2024-07-09T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0005-48566,pat-0005,inpatient,2025-03-26T10:00:00,2025-03-26T11:00:00,prov-0003,Follow-up,3,False
+enc-pat-0005-35242,pat-0005,ambulatory,2025-10-13T10:00:00,2025-10-13T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0006-82350,pat-0006,ambulatory,2026-01-18T10:00:00,2026-01-18T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0006-96662,pat-0006,inpatient,2024-04-12T10:00:00,2024-04-12T11:00:00,prov-0012,Follow-up,11,False
+enc-pat-0007-62488,pat-0007,emergency,2025-09-05T10:00:00,2025-09-05T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0007-70552,pat-0007,virtual,2024-08-23T10:00:00,2024-08-23T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0007-92578,pat-0007,ambulatory,2026-02-23T10:00:00,2026-02-23T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0007-48254,pat-0007,inpatient,2024-09-02T10:00:00,2024-09-02T11:00:00,prov-0008,Follow-up,9,False
+enc-pat-0007-54548,pat-0007,inpatient,2025-09-18T10:00:00,2025-09-18T11:00:00,prov-0014,Follow-up,8,False
+enc-pat-0007-55236,pat-0007,wellness,2025-03-27T10:00:00,2025-03-27T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0007-59968,pat-0007,wellness,2024-05-26T10:00:00,2024-05-26T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0007-74923,pat-0007,inpatient,2024-04-07T10:00:00,2024-04-07T11:00:00,prov-0000,Follow-up,4,False
+enc-pat-0008-28758,pat-0008,virtual,2025-02-03T10:00:00,2025-02-03T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0008-42780,pat-0008,virtual,2024-09-11T10:00:00,2024-09-11T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0008-96275,pat-0008,virtual,2026-06-05T10:00:00,2026-06-05T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0008-93442,pat-0008,ambulatory,2024-03-28T10:00:00,2024-03-28T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0009-71797,pat-0009,emergency,2026-03-09T10:00:00,2026-03-09T11:00:00,prov-0000,Acute presentation,0,True
+enc-pat-0009-15943,pat-0009,ambulatory,2025-05-05T10:00:00,2025-05-05T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0009-95841,pat-0009,virtual,2026-01-20T10:00:00,2026-01-20T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0009-58147,pat-0009,virtual,2026-03-18T10:00:00,2026-03-18T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0009-62184,pat-0009,ambulatory,2024-09-05T10:00:00,2024-09-05T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0009-18992,pat-0009,wellness,2024-04-13T10:00:00,2024-04-13T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0010-68138,pat-0010,emergency,2025-02-10T10:00:00,2025-02-10T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0010-22999,pat-0010,wellness,2025-01-26T10:00:00,2025-01-26T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0011-25058,pat-0011,inpatient,2025-07-04T10:00:00,2025-07-04T11:00:00,prov-0012,Follow-up,7,False
+enc-pat-0011-45818,pat-0011,ambulatory,2025-09-27T10:00:00,2025-09-27T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0012-67176,pat-0012,emergency,2024-01-27T10:00:00,2024-01-27T11:00:00,prov-0000,Acute presentation,0,True
+enc-pat-0012-57428,pat-0012,wellness,2023-10-31T10:00:00,2023-10-31T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0012-76910,pat-0012,ambulatory,2024-04-21T10:00:00,2024-04-21T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0012-95918,pat-0012,ambulatory,2024-10-19T10:00:00,2024-10-19T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0012-92210,pat-0012,ambulatory,2024-09-26T10:00:00,2024-09-26T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0012-94497,pat-0012,ambulatory,2024-02-27T10:00:00,2024-02-27T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0012-76462,pat-0012,wellness,2026-03-27T10:00:00,2026-03-27T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0013-99838,pat-0013,emergency,2024-08-10T10:00:00,2024-08-10T11:00:00,prov-0014,Acute presentation,0,True
+enc-pat-0013-23256,pat-0013,ambulatory,2026-01-20T10:00:00,2026-01-20T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0013-91885,pat-0013,ambulatory,2026-01-12T10:00:00,2026-01-12T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0014-20696,pat-0014,ambulatory,2025-10-29T10:00:00,2025-10-29T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0014-68799,pat-0014,inpatient,2024-07-15T10:00:00,2024-07-15T11:00:00,prov-0009,Follow-up,9,False
+enc-pat-0014-93748,pat-0014,ambulatory,2026-05-10T10:00:00,2026-05-10T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0014-90584,pat-0014,wellness,2025-09-02T10:00:00,2025-09-02T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0014-15706,pat-0014,virtual,2025-05-24T10:00:00,2025-05-24T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0014-53583,pat-0014,emergency,2024-11-09T10:00:00,2024-11-09T11:00:00,prov-0002,Acute presentation,0,True
+enc-pat-0015-63242,pat-0015,emergency,2026-04-12T10:00:00,2026-04-12T11:00:00,prov-0005,Acute presentation,0,True
+enc-pat-0016-71263,pat-0016,wellness,2024-12-07T10:00:00,2024-12-07T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0016-21300,pat-0016,wellness,2026-02-15T10:00:00,2026-02-15T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0016-26821,pat-0016,wellness,2024-07-31T10:00:00,2024-07-31T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0016-31229,pat-0016,ambulatory,2026-01-22T10:00:00,2026-01-22T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0016-78012,pat-0016,ambulatory,2025-11-09T10:00:00,2025-11-09T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0016-89316,pat-0016,emergency,2026-01-03T10:00:00,2026-01-03T11:00:00,prov-0005,Acute presentation,0,True
+enc-pat-0017-24089,pat-0017,wellness,2025-09-08T10:00:00,2025-09-08T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0017-46663,pat-0017,emergency,2025-03-23T10:00:00,2025-03-23T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0017-26864,pat-0017,wellness,2024-07-31T10:00:00,2024-07-31T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0017-53652,pat-0017,ambulatory,2026-05-19T10:00:00,2026-05-19T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0017-76809,pat-0017,wellness,2025-07-18T10:00:00,2025-07-18T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0017-92478,pat-0017,emergency,2023-12-20T10:00:00,2023-12-20T11:00:00,prov-0000,Acute presentation,0,True
+enc-pat-0017-99224,pat-0017,ambulatory,2024-02-17T10:00:00,2024-02-17T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0017-71814,pat-0017,wellness,2024-04-25T10:00:00,2024-04-25T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0018-80143,pat-0018,wellness,2024-08-29T10:00:00,2024-08-29T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0018-47941,pat-0018,ambulatory,2025-02-05T10:00:00,2025-02-05T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0019-48671,pat-0019,virtual,2024-09-11T10:00:00,2024-09-11T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0019-97044,pat-0019,wellness,2024-05-13T10:00:00,2024-05-13T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0020-10455,pat-0020,virtual,2024-06-12T10:00:00,2024-06-12T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0020-24790,pat-0020,ambulatory,2025-09-18T10:00:00,2025-09-18T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0020-67535,pat-0020,ambulatory,2024-05-30T10:00:00,2024-05-30T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0021-87015,pat-0021,ambulatory,2024-01-15T10:00:00,2024-01-15T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0022-74044,pat-0022,emergency,2025-10-07T10:00:00,2025-10-07T11:00:00,prov-0011,Acute presentation,0,True
+enc-pat-0022-14433,pat-0022,ambulatory,2023-10-21T10:00:00,2023-10-21T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0022-93588,pat-0022,ambulatory,2025-06-10T10:00:00,2025-06-10T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0022-73944,pat-0022,wellness,2023-12-06T10:00:00,2023-12-06T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0022-33496,pat-0022,wellness,2024-08-06T10:00:00,2024-08-06T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0022-35156,pat-0022,ambulatory,2025-01-07T10:00:00,2025-01-07T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0023-53480,pat-0023,virtual,2024-08-03T10:00:00,2024-08-03T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0023-89320,pat-0023,ambulatory,2024-02-20T10:00:00,2024-02-20T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0023-59816,pat-0023,wellness,2024-07-31T10:00:00,2024-07-31T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0023-23965,pat-0023,ambulatory,2025-05-25T10:00:00,2025-05-25T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0023-88240,pat-0023,wellness,2025-06-30T10:00:00,2025-06-30T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0023-32216,pat-0023,emergency,2026-01-05T10:00:00,2026-01-05T11:00:00,prov-0002,Acute presentation,0,True
+enc-pat-0023-35630,pat-0023,wellness,2025-02-05T10:00:00,2025-02-05T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0024-63627,pat-0024,emergency,2024-02-27T10:00:00,2024-02-27T11:00:00,prov-0010,Acute presentation,0,True
+enc-pat-0024-64827,pat-0024,virtual,2025-01-25T10:00:00,2025-01-25T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0024-94803,pat-0024,ambulatory,2024-08-16T10:00:00,2024-08-16T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0024-85397,pat-0024,wellness,2024-12-03T10:00:00,2024-12-03T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0024-21253,pat-0024,virtual,2025-04-28T10:00:00,2025-04-28T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0025-98288,pat-0025,ambulatory,2024-10-03T10:00:00,2024-10-03T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0025-64819,pat-0025,wellness,2026-02-03T10:00:00,2026-02-03T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0025-17026,pat-0025,wellness,2024-02-16T10:00:00,2024-02-16T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0025-31922,pat-0025,inpatient,2024-06-30T10:00:00,2024-06-30T11:00:00,prov-0001,Follow-up,9,False
+enc-pat-0025-24969,pat-0025,ambulatory,2025-01-20T10:00:00,2025-01-20T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0025-49021,pat-0025,inpatient,2024-06-04T10:00:00,2024-06-04T11:00:00,prov-0013,Follow-up,5,False
+enc-pat-0025-21401,pat-0025,ambulatory,2025-03-24T10:00:00,2025-03-24T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0025-37124,pat-0025,ambulatory,2024-04-15T10:00:00,2024-04-15T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0026-45197,pat-0026,ambulatory,2024-03-05T10:00:00,2024-03-05T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0026-30707,pat-0026,ambulatory,2025-03-14T10:00:00,2025-03-14T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0026-20803,pat-0026,ambulatory,2024-08-26T10:00:00,2024-08-26T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0026-39647,pat-0026,ambulatory,2026-04-09T10:00:00,2026-04-09T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0026-23425,pat-0026,emergency,2026-03-28T10:00:00,2026-03-28T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0026-37925,pat-0026,wellness,2026-01-10T10:00:00,2026-01-10T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0026-66280,pat-0026,ambulatory,2024-06-10T10:00:00,2024-06-10T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0027-64451,pat-0027,emergency,2024-09-22T10:00:00,2024-09-22T11:00:00,prov-0006,Acute presentation,0,True
+enc-pat-0027-86865,pat-0027,ambulatory,2024-12-25T10:00:00,2024-12-25T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0027-50539,pat-0027,wellness,2024-10-09T10:00:00,2024-10-09T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0027-31884,pat-0027,inpatient,2024-04-17T10:00:00,2024-04-17T11:00:00,prov-0005,Follow-up,6,False
+enc-pat-0027-76949,pat-0027,wellness,2026-04-10T10:00:00,2026-04-10T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0028-40539,pat-0028,wellness,2023-11-16T10:00:00,2023-11-16T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0029-69270,pat-0029,virtual,2026-05-27T10:00:00,2026-05-27T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0029-94500,pat-0029,emergency,2025-06-11T10:00:00,2025-06-11T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0029-15596,pat-0029,inpatient,2024-02-29T10:00:00,2024-02-29T11:00:00,prov-0007,Follow-up,3,False
+enc-pat-0030-32768,pat-0030,virtual,2025-06-29T10:00:00,2025-06-29T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0030-74517,pat-0030,virtual,2024-11-28T10:00:00,2024-11-28T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0030-52413,pat-0030,ambulatory,2024-06-23T10:00:00,2024-06-23T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0030-86810,pat-0030,emergency,2023-11-06T10:00:00,2023-11-06T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0030-97232,pat-0030,ambulatory,2024-04-13T10:00:00,2024-04-13T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0030-14244,pat-0030,virtual,2024-04-29T10:00:00,2024-04-29T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0030-21629,pat-0030,virtual,2024-09-14T10:00:00,2024-09-14T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0031-16505,pat-0031,ambulatory,2025-08-27T10:00:00,2025-08-27T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0031-20739,pat-0031,wellness,2026-01-04T10:00:00,2026-01-04T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0031-15848,pat-0031,ambulatory,2025-06-14T10:00:00,2025-06-14T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0031-17993,pat-0031,ambulatory,2024-11-01T10:00:00,2024-11-01T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0031-14551,pat-0031,virtual,2023-12-16T10:00:00,2023-12-16T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0032-50756,pat-0032,inpatient,2025-07-17T10:00:00,2025-07-17T11:00:00,prov-0004,Follow-up,6,False
+enc-pat-0033-68471,pat-0033,wellness,2025-06-11T10:00:00,2025-06-11T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0033-55843,pat-0033,wellness,2025-02-27T10:00:00,2025-02-27T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0033-39012,pat-0033,ambulatory,2023-10-13T10:00:00,2023-10-13T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0033-43081,pat-0033,ambulatory,2024-03-29T10:00:00,2024-03-29T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0034-84978,pat-0034,emergency,2024-11-07T10:00:00,2024-11-07T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0035-33176,pat-0035,ambulatory,2025-02-13T10:00:00,2025-02-13T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0035-66233,pat-0035,wellness,2024-09-17T10:00:00,2024-09-17T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0036-12587,pat-0036,ambulatory,2024-08-19T10:00:00,2024-08-19T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0037-22451,pat-0037,emergency,2025-04-17T10:00:00,2025-04-17T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0037-54921,pat-0037,ambulatory,2024-06-07T10:00:00,2024-06-07T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0037-30892,pat-0037,ambulatory,2024-06-14T10:00:00,2024-06-14T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0037-27125,pat-0037,virtual,2024-07-27T10:00:00,2024-07-27T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0037-67761,pat-0037,virtual,2026-03-04T10:00:00,2026-03-04T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0037-91033,pat-0037,wellness,2025-01-12T10:00:00,2025-01-12T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0038-69314,pat-0038,emergency,2024-06-24T10:00:00,2024-06-24T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0038-24019,pat-0038,inpatient,2026-02-04T10:00:00,2026-02-04T11:00:00,prov-0004,Follow-up,8,False
+enc-pat-0038-93000,pat-0038,ambulatory,2025-04-29T10:00:00,2025-04-29T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0038-76628,pat-0038,wellness,2024-11-05T10:00:00,2024-11-05T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0038-32760,pat-0038,emergency,2025-12-28T10:00:00,2025-12-28T11:00:00,prov-0011,Acute presentation,0,True
+enc-pat-0038-54939,pat-0038,ambulatory,2025-10-16T10:00:00,2025-10-16T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0038-48086,pat-0038,ambulatory,2025-12-04T10:00:00,2025-12-04T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0038-86389,pat-0038,wellness,2025-07-02T10:00:00,2025-07-02T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0039-93071,pat-0039,ambulatory,2024-02-29T10:00:00,2024-02-29T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0039-77350,pat-0039,ambulatory,2023-10-16T10:00:00,2023-10-16T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0039-52287,pat-0039,ambulatory,2026-05-18T10:00:00,2026-05-18T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0039-76209,pat-0039,ambulatory,2025-01-10T10:00:00,2025-01-10T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0039-83575,pat-0039,wellness,2024-12-31T10:00:00,2024-12-31T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0039-43631,pat-0039,ambulatory,2023-11-03T10:00:00,2023-11-03T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0039-20793,pat-0039,ambulatory,2025-12-12T10:00:00,2025-12-12T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0039-94746,pat-0039,inpatient,2024-12-24T10:00:00,2024-12-24T11:00:00,prov-0013,Follow-up,8,False
+enc-pat-0040-82551,pat-0040,virtual,2023-10-21T10:00:00,2023-10-21T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0040-37752,pat-0040,emergency,2023-12-15T10:00:00,2023-12-15T11:00:00,prov-0006,Acute presentation,0,True
+enc-pat-0040-31096,pat-0040,wellness,2024-02-07T10:00:00,2024-02-07T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0040-98039,pat-0040,ambulatory,2024-12-12T10:00:00,2024-12-12T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0040-73682,pat-0040,ambulatory,2023-12-19T10:00:00,2023-12-19T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0040-46264,pat-0040,wellness,2024-05-31T10:00:00,2024-05-31T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0041-38681,pat-0041,ambulatory,2023-11-09T10:00:00,2023-11-09T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0041-95003,pat-0041,ambulatory,2024-01-07T10:00:00,2024-01-07T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0041-42975,pat-0041,inpatient,2023-12-21T10:00:00,2023-12-21T11:00:00,prov-0006,Follow-up,10,False
+enc-pat-0041-56255,pat-0041,wellness,2025-11-11T10:00:00,2025-11-11T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0041-29692,pat-0041,ambulatory,2024-09-07T10:00:00,2024-09-07T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0041-41938,pat-0041,inpatient,2024-09-03T10:00:00,2024-09-03T11:00:00,prov-0000,Follow-up,2,False
+enc-pat-0041-93574,pat-0041,virtual,2024-10-22T10:00:00,2024-10-22T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0041-33839,pat-0041,wellness,2024-04-05T10:00:00,2024-04-05T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0042-82733,pat-0042,ambulatory,2025-12-26T10:00:00,2025-12-26T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0042-62502,pat-0042,ambulatory,2026-03-17T10:00:00,2026-03-17T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0042-88675,pat-0042,wellness,2026-01-30T10:00:00,2026-01-30T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0042-93924,pat-0042,inpatient,2023-11-02T10:00:00,2023-11-02T11:00:00,prov-0007,Follow-up,4,False
+enc-pat-0042-98345,pat-0042,wellness,2025-11-02T10:00:00,2025-11-02T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0042-82036,pat-0042,virtual,2026-04-18T10:00:00,2026-04-18T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0042-63363,pat-0042,ambulatory,2026-06-23T10:00:00,2026-06-23T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0042-41886,pat-0042,wellness,2024-11-28T10:00:00,2024-11-28T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0043-65466,pat-0043,wellness,2026-05-03T10:00:00,2026-05-03T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0043-61605,pat-0043,wellness,2026-05-25T10:00:00,2026-05-25T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0043-34530,pat-0043,virtual,2024-10-08T10:00:00,2024-10-08T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0044-43779,pat-0044,wellness,2024-12-01T10:00:00,2024-12-01T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0044-76904,pat-0044,ambulatory,2025-06-29T10:00:00,2025-06-29T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0044-19351,pat-0044,wellness,2024-10-08T10:00:00,2024-10-08T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0044-86928,pat-0044,ambulatory,2023-11-09T10:00:00,2023-11-09T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0044-13027,pat-0044,ambulatory,2025-04-30T10:00:00,2025-04-30T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0044-20911,pat-0044,inpatient,2026-06-01T10:00:00,2026-06-01T11:00:00,prov-0001,Follow-up,10,False
+enc-pat-0045-79722,pat-0045,wellness,2025-09-09T10:00:00,2025-09-09T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0045-12542,pat-0045,ambulatory,2025-02-09T10:00:00,2025-02-09T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0045-75325,pat-0045,wellness,2025-07-12T10:00:00,2025-07-12T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0045-42778,pat-0045,ambulatory,2025-12-24T10:00:00,2025-12-24T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0045-37321,pat-0045,wellness,2026-03-23T10:00:00,2026-03-23T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0046-74237,pat-0046,ambulatory,2024-12-02T10:00:00,2024-12-02T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0046-48754,pat-0046,ambulatory,2024-12-31T10:00:00,2024-12-31T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0046-80642,pat-0046,ambulatory,2024-06-19T10:00:00,2024-06-19T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0046-15737,pat-0046,emergency,2025-01-08T10:00:00,2025-01-08T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0046-36486,pat-0046,virtual,2025-12-27T10:00:00,2025-12-27T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0046-37359,pat-0046,ambulatory,2026-04-16T10:00:00,2026-04-16T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0046-90862,pat-0046,emergency,2024-04-05T10:00:00,2024-04-05T11:00:00,prov-0004,Acute presentation,0,True
+enc-pat-0046-33448,pat-0046,wellness,2025-10-16T10:00:00,2025-10-16T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0047-86304,pat-0047,ambulatory,2026-02-06T10:00:00,2026-02-06T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0047-22499,pat-0047,wellness,2024-07-08T10:00:00,2024-07-08T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0047-25799,pat-0047,virtual,2025-04-27T10:00:00,2025-04-27T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0048-67961,pat-0048,wellness,2025-07-04T10:00:00,2025-07-04T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0048-11800,pat-0048,inpatient,2024-01-20T10:00:00,2024-01-20T11:00:00,prov-0005,Follow-up,6,False
+enc-pat-0048-91663,pat-0048,wellness,2025-10-06T10:00:00,2025-10-06T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0049-75700,pat-0049,virtual,2025-10-29T10:00:00,2025-10-29T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0049-60096,pat-0049,ambulatory,2026-02-07T10:00:00,2026-02-07T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0049-99983,pat-0049,virtual,2024-10-08T10:00:00,2024-10-08T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0049-78656,pat-0049,ambulatory,2024-01-26T10:00:00,2024-01-26T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0049-29073,pat-0049,ambulatory,2026-02-26T10:00:00,2026-02-26T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0050-69971,pat-0050,ambulatory,2024-07-23T10:00:00,2024-07-23T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0050-15047,pat-0050,wellness,2024-12-25T10:00:00,2024-12-25T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0050-62171,pat-0050,ambulatory,2025-12-15T10:00:00,2025-12-15T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0050-75622,pat-0050,wellness,2024-09-04T10:00:00,2024-09-04T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0050-95010,pat-0050,ambulatory,2026-03-27T10:00:00,2026-03-27T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0050-90225,pat-0050,inpatient,2024-06-13T10:00:00,2024-06-13T11:00:00,prov-0002,Follow-up,10,False
+enc-pat-0050-68491,pat-0050,ambulatory,2025-08-16T10:00:00,2025-08-16T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0050-74679,pat-0050,inpatient,2024-12-18T10:00:00,2024-12-18T11:00:00,prov-0003,Follow-up,11,False
+enc-pat-0051-37400,pat-0051,ambulatory,2025-01-06T10:00:00,2025-01-06T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0051-51482,pat-0051,wellness,2025-04-16T10:00:00,2025-04-16T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0051-10207,pat-0051,virtual,2025-09-03T10:00:00,2025-09-03T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0051-11480,pat-0051,inpatient,2024-12-01T10:00:00,2024-12-01T11:00:00,prov-0010,Follow-up,5,False
+enc-pat-0051-33020,pat-0051,virtual,2024-10-05T10:00:00,2024-10-05T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0051-70616,pat-0051,virtual,2024-12-25T10:00:00,2024-12-25T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0051-56346,pat-0051,virtual,2023-12-02T10:00:00,2023-12-02T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0052-70210,pat-0052,emergency,2025-11-29T10:00:00,2025-11-29T11:00:00,prov-0006,Acute presentation,0,True
+enc-pat-0052-85701,pat-0052,ambulatory,2024-05-25T10:00:00,2024-05-25T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0052-25002,pat-0052,ambulatory,2026-01-26T10:00:00,2026-01-26T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0053-39333,pat-0053,ambulatory,2025-03-03T10:00:00,2025-03-03T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0053-72737,pat-0053,ambulatory,2025-02-26T10:00:00,2025-02-26T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0053-49599,pat-0053,wellness,2024-12-05T10:00:00,2024-12-05T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0053-54852,pat-0053,wellness,2025-04-08T10:00:00,2025-04-08T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0053-68355,pat-0053,ambulatory,2024-12-06T10:00:00,2024-12-06T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0053-93379,pat-0053,virtual,2026-02-05T10:00:00,2026-02-05T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0053-99071,pat-0053,ambulatory,2025-08-07T10:00:00,2025-08-07T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0053-55123,pat-0053,wellness,2023-11-11T10:00:00,2023-11-11T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0054-58310,pat-0054,wellness,2026-05-20T10:00:00,2026-05-20T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0055-88059,pat-0055,virtual,2026-04-02T10:00:00,2026-04-02T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0055-25203,pat-0055,wellness,2026-05-03T10:00:00,2026-05-03T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0055-66981,pat-0055,wellness,2026-01-30T10:00:00,2026-01-30T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0055-45432,pat-0055,ambulatory,2024-01-31T10:00:00,2024-01-31T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0055-33582,pat-0055,ambulatory,2025-01-11T10:00:00,2025-01-11T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0055-17455,pat-0055,wellness,2026-06-03T10:00:00,2026-06-03T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0056-19188,pat-0056,wellness,2025-02-23T10:00:00,2025-02-23T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0056-54572,pat-0056,ambulatory,2026-03-27T10:00:00,2026-03-27T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0056-92656,pat-0056,virtual,2025-05-24T10:00:00,2025-05-24T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0056-75494,pat-0056,wellness,2024-12-21T10:00:00,2024-12-21T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0056-12151,pat-0056,wellness,2024-03-18T10:00:00,2024-03-18T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0056-85936,pat-0056,wellness,2024-01-14T10:00:00,2024-01-14T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0056-74080,pat-0056,emergency,2026-05-21T10:00:00,2026-05-21T11:00:00,prov-0010,Acute presentation,0,True
+enc-pat-0056-87469,pat-0056,ambulatory,2024-10-10T10:00:00,2024-10-10T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0057-79494,pat-0057,ambulatory,2025-12-13T10:00:00,2025-12-13T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0057-72182,pat-0057,inpatient,2026-03-04T10:00:00,2026-03-04T11:00:00,prov-0007,Follow-up,12,False
+enc-pat-0057-80432,pat-0057,ambulatory,2024-05-30T10:00:00,2024-05-30T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0057-40154,pat-0057,virtual,2024-08-03T10:00:00,2024-08-03T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0058-42483,pat-0058,virtual,2024-06-04T10:00:00,2024-06-04T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0058-79615,pat-0058,ambulatory,2025-01-27T10:00:00,2025-01-27T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0058-21892,pat-0058,ambulatory,2025-08-29T10:00:00,2025-08-29T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0058-34241,pat-0058,emergency,2024-01-14T10:00:00,2024-01-14T11:00:00,prov-0012,Acute presentation,0,True
+enc-pat-0058-81098,pat-0058,virtual,2024-07-13T10:00:00,2024-07-13T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0058-91151,pat-0058,ambulatory,2025-05-31T10:00:00,2025-05-31T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0058-37498,pat-0058,virtual,2024-11-10T10:00:00,2024-11-10T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0059-69759,pat-0059,ambulatory,2026-01-27T10:00:00,2026-01-27T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0060-62108,pat-0060,emergency,2023-12-10T10:00:00,2023-12-10T11:00:00,prov-0002,Acute presentation,0,True
+enc-pat-0061-47707,pat-0061,emergency,2026-02-20T10:00:00,2026-02-20T11:00:00,prov-0006,Acute presentation,0,True
+enc-pat-0061-99903,pat-0061,ambulatory,2024-01-20T10:00:00,2024-01-20T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0061-77177,pat-0061,ambulatory,2024-03-12T10:00:00,2024-03-12T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0061-93394,pat-0061,ambulatory,2025-09-21T10:00:00,2025-09-21T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0061-79417,pat-0061,ambulatory,2026-05-09T10:00:00,2026-05-09T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0061-92317,pat-0061,ambulatory,2025-01-17T10:00:00,2025-01-17T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0061-28837,pat-0061,wellness,2024-12-27T10:00:00,2024-12-27T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0061-90403,pat-0061,virtual,2024-04-04T10:00:00,2024-04-04T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0062-34219,pat-0062,virtual,2024-11-03T10:00:00,2024-11-03T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0062-18957,pat-0062,wellness,2025-10-23T10:00:00,2025-10-23T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0062-58033,pat-0062,emergency,2024-02-07T10:00:00,2024-02-07T11:00:00,prov-0011,Acute presentation,0,True
+enc-pat-0062-51193,pat-0062,emergency,2026-03-04T10:00:00,2026-03-04T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0063-69589,pat-0063,ambulatory,2025-01-20T10:00:00,2025-01-20T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0063-89244,pat-0063,ambulatory,2023-10-06T10:00:00,2023-10-06T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0063-55038,pat-0063,ambulatory,2025-01-27T10:00:00,2025-01-27T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0063-82963,pat-0063,ambulatory,2026-05-22T10:00:00,2026-05-22T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0063-71580,pat-0063,wellness,2024-07-26T10:00:00,2024-07-26T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0063-87393,pat-0063,ambulatory,2025-08-03T10:00:00,2025-08-03T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0063-42455,pat-0063,emergency,2026-05-01T10:00:00,2026-05-01T11:00:00,prov-0003,Acute presentation,0,True
+enc-pat-0063-65374,pat-0063,emergency,2025-03-13T10:00:00,2025-03-13T11:00:00,prov-0009,Acute presentation,0,True
+enc-pat-0064-79824,pat-0064,virtual,2025-09-26T10:00:00,2025-09-26T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0064-49357,pat-0064,emergency,2026-01-24T10:00:00,2026-01-24T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0064-29655,pat-0064,ambulatory,2025-05-08T10:00:00,2025-05-08T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0064-46408,pat-0064,ambulatory,2026-02-08T10:00:00,2026-02-08T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0064-21836,pat-0064,emergency,2024-08-09T10:00:00,2024-08-09T11:00:00,prov-0006,Acute presentation,0,True
+enc-pat-0064-24671,pat-0064,inpatient,2024-06-16T10:00:00,2024-06-16T11:00:00,prov-0009,Follow-up,5,False
+enc-pat-0064-53160,pat-0064,inpatient,2026-02-22T10:00:00,2026-02-22T11:00:00,prov-0013,Follow-up,7,False
+enc-pat-0064-59113,pat-0064,wellness,2026-05-01T10:00:00,2026-05-01T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0065-53610,pat-0065,emergency,2025-03-02T10:00:00,2025-03-02T11:00:00,prov-0011,Acute presentation,0,True
+enc-pat-0065-16828,pat-0065,ambulatory,2024-07-16T10:00:00,2024-07-16T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0065-95089,pat-0065,ambulatory,2026-01-17T10:00:00,2026-01-17T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0065-58182,pat-0065,ambulatory,2025-12-06T10:00:00,2025-12-06T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0065-70610,pat-0065,virtual,2025-11-05T10:00:00,2025-11-05T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0065-98291,pat-0065,inpatient,2025-04-08T10:00:00,2025-04-08T11:00:00,prov-0007,Follow-up,9,False
+enc-pat-0065-38254,pat-0065,ambulatory,2024-02-02T10:00:00,2024-02-02T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0065-21237,pat-0065,wellness,2024-07-27T10:00:00,2024-07-27T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0066-96169,pat-0066,virtual,2024-12-05T10:00:00,2024-12-05T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0066-83512,pat-0066,virtual,2025-06-27T10:00:00,2025-06-27T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0066-45755,pat-0066,wellness,2024-05-21T10:00:00,2024-05-21T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0067-68385,pat-0067,ambulatory,2025-01-19T10:00:00,2025-01-19T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0067-54793,pat-0067,ambulatory,2026-03-24T10:00:00,2026-03-24T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0067-99694,pat-0067,virtual,2026-01-26T10:00:00,2026-01-26T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0067-96619,pat-0067,ambulatory,2025-05-01T10:00:00,2025-05-01T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0067-49013,pat-0067,wellness,2026-04-03T10:00:00,2026-04-03T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0067-89174,pat-0067,ambulatory,2025-12-20T10:00:00,2025-12-20T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0068-77286,pat-0068,ambulatory,2025-02-13T10:00:00,2025-02-13T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0069-21297,pat-0069,ambulatory,2024-09-29T10:00:00,2024-09-29T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0069-12376,pat-0069,ambulatory,2024-12-04T10:00:00,2024-12-04T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0069-54606,pat-0069,wellness,2025-11-10T10:00:00,2025-11-10T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0070-64396,pat-0070,ambulatory,2025-09-28T10:00:00,2025-09-28T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0070-13901,pat-0070,emergency,2024-04-05T10:00:00,2024-04-05T11:00:00,prov-0007,Acute presentation,0,True
+enc-pat-0071-47214,pat-0071,virtual,2025-01-11T10:00:00,2025-01-11T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0071-65410,pat-0071,inpatient,2025-10-23T10:00:00,2025-10-23T11:00:00,prov-0008,Follow-up,6,False
+enc-pat-0071-40945,pat-0071,ambulatory,2025-03-20T10:00:00,2025-03-20T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0072-73539,pat-0072,wellness,2026-01-31T10:00:00,2026-01-31T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0072-25842,pat-0072,wellness,2024-02-06T10:00:00,2024-02-06T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0072-16376,pat-0072,wellness,2024-04-16T10:00:00,2024-04-16T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0073-12446,pat-0073,wellness,2024-05-20T10:00:00,2024-05-20T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0073-51999,pat-0073,wellness,2024-03-23T10:00:00,2024-03-23T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0073-33942,pat-0073,ambulatory,2026-01-06T10:00:00,2026-01-06T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0073-51948,pat-0073,ambulatory,2025-08-26T10:00:00,2025-08-26T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0074-26118,pat-0074,ambulatory,2025-08-24T10:00:00,2025-08-24T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0074-69338,pat-0074,virtual,2025-10-03T10:00:00,2025-10-03T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0075-89433,pat-0075,wellness,2025-09-13T10:00:00,2025-09-13T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0076-65550,pat-0076,ambulatory,2024-06-02T10:00:00,2024-06-02T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0077-22560,pat-0077,ambulatory,2024-02-08T10:00:00,2024-02-08T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0077-98575,pat-0077,ambulatory,2026-03-16T10:00:00,2026-03-16T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0077-65182,pat-0077,ambulatory,2025-01-22T10:00:00,2025-01-22T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0077-80928,pat-0077,ambulatory,2025-06-26T10:00:00,2025-06-26T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0077-65320,pat-0077,virtual,2024-12-02T10:00:00,2024-12-02T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0078-35929,pat-0078,ambulatory,2023-10-03T10:00:00,2023-10-03T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0079-96966,pat-0079,wellness,2024-04-15T10:00:00,2024-04-15T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0079-73346,pat-0079,wellness,2025-06-10T10:00:00,2025-06-10T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0080-36254,pat-0080,ambulatory,2025-06-24T10:00:00,2025-06-24T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0080-44227,pat-0080,wellness,2024-05-31T10:00:00,2024-05-31T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0081-14202,pat-0081,wellness,2024-08-05T10:00:00,2024-08-05T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0081-63852,pat-0081,ambulatory,2026-01-03T10:00:00,2026-01-03T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0082-45884,pat-0082,virtual,2024-01-03T10:00:00,2024-01-03T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0082-52731,pat-0082,ambulatory,2024-05-15T10:00:00,2024-05-15T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0082-35480,pat-0082,ambulatory,2024-05-25T10:00:00,2024-05-25T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0082-46587,pat-0082,wellness,2026-02-04T10:00:00,2026-02-04T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0083-40462,pat-0083,wellness,2023-11-09T10:00:00,2023-11-09T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0083-38647,pat-0083,ambulatory,2026-05-14T10:00:00,2026-05-14T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0083-52513,pat-0083,ambulatory,2023-10-19T10:00:00,2023-10-19T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0083-86681,pat-0083,wellness,2026-06-09T10:00:00,2026-06-09T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0083-41922,pat-0083,wellness,2024-06-02T10:00:00,2024-06-02T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0083-51620,pat-0083,ambulatory,2025-07-26T10:00:00,2025-07-26T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0083-80688,pat-0083,ambulatory,2025-07-12T10:00:00,2025-07-12T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0084-71506,pat-0084,ambulatory,2026-04-15T10:00:00,2026-04-15T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0084-87110,pat-0084,wellness,2025-08-16T10:00:00,2025-08-16T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0084-74044,pat-0084,ambulatory,2024-06-18T10:00:00,2024-06-18T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0084-89355,pat-0084,ambulatory,2024-09-05T10:00:00,2024-09-05T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0084-88924,pat-0084,ambulatory,2026-01-28T10:00:00,2026-01-28T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0084-25300,pat-0084,ambulatory,2024-02-17T10:00:00,2024-02-17T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0084-49612,pat-0084,ambulatory,2025-04-16T10:00:00,2025-04-16T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0084-86818,pat-0084,virtual,2024-08-22T10:00:00,2024-08-22T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0085-54175,pat-0085,wellness,2023-11-16T10:00:00,2023-11-16T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0085-53287,pat-0085,ambulatory,2023-10-03T10:00:00,2023-10-03T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0085-91048,pat-0085,ambulatory,2025-10-16T10:00:00,2025-10-16T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0085-52667,pat-0085,ambulatory,2024-01-15T10:00:00,2024-01-15T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0085-28764,pat-0085,wellness,2025-08-31T10:00:00,2025-08-31T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0086-85083,pat-0086,virtual,2024-05-26T10:00:00,2024-05-26T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0086-26555,pat-0086,emergency,2024-04-02T10:00:00,2024-04-02T11:00:00,prov-0008,Acute presentation,0,True
+enc-pat-0086-29323,pat-0086,emergency,2025-02-01T10:00:00,2025-02-01T11:00:00,prov-0009,Acute presentation,0,True
+enc-pat-0086-38272,pat-0086,wellness,2025-02-23T10:00:00,2025-02-23T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0087-73234,pat-0087,ambulatory,2024-11-13T10:00:00,2024-11-13T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0087-99056,pat-0087,virtual,2023-10-28T10:00:00,2023-10-28T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0087-62952,pat-0087,ambulatory,2023-10-08T10:00:00,2023-10-08T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0088-80309,pat-0088,wellness,2025-05-20T10:00:00,2025-05-20T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0089-43315,pat-0089,ambulatory,2025-03-17T10:00:00,2025-03-17T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0089-94904,pat-0089,wellness,2025-06-11T10:00:00,2025-06-11T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0089-53169,pat-0089,wellness,2024-12-13T10:00:00,2024-12-13T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0089-26187,pat-0089,ambulatory,2023-10-27T10:00:00,2023-10-27T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0089-61060,pat-0089,ambulatory,2026-01-04T10:00:00,2026-01-04T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0089-30380,pat-0089,emergency,2026-06-18T10:00:00,2026-06-18T11:00:00,prov-0010,Acute presentation,0,True
+enc-pat-0089-71428,pat-0089,virtual,2025-04-04T10:00:00,2025-04-04T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0090-94275,pat-0090,ambulatory,2023-11-25T10:00:00,2023-11-25T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0090-55838,pat-0090,ambulatory,2025-06-30T10:00:00,2025-06-30T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0090-71695,pat-0090,ambulatory,2024-08-24T10:00:00,2024-08-24T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0090-66880,pat-0090,ambulatory,2026-02-04T10:00:00,2026-02-04T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0091-62596,pat-0091,ambulatory,2025-11-05T10:00:00,2025-11-05T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0091-18041,pat-0091,wellness,2025-07-18T10:00:00,2025-07-18T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0091-52157,pat-0091,ambulatory,2026-06-27T10:00:00,2026-06-27T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0092-34928,pat-0092,virtual,2024-04-05T10:00:00,2024-04-05T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0093-33165,pat-0093,virtual,2024-06-09T10:00:00,2024-06-09T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0093-86449,pat-0093,emergency,2024-12-24T10:00:00,2024-12-24T11:00:00,prov-0001,Acute presentation,0,True
+enc-pat-0093-30400,pat-0093,inpatient,2024-09-21T10:00:00,2024-09-21T11:00:00,prov-0007,Follow-up,8,False
+enc-pat-0093-33646,pat-0093,wellness,2024-11-21T10:00:00,2024-11-21T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0094-53888,pat-0094,wellness,2025-12-27T10:00:00,2025-12-27T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0094-44786,pat-0094,ambulatory,2024-08-19T10:00:00,2024-08-19T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0094-10285,pat-0094,ambulatory,2024-04-01T10:00:00,2024-04-01T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0095-82286,pat-0095,wellness,2025-08-30T10:00:00,2025-08-30T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0095-39437,pat-0095,ambulatory,2025-10-22T10:00:00,2025-10-22T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0095-13956,pat-0095,inpatient,2025-02-24T10:00:00,2025-02-24T11:00:00,prov-0002,Follow-up,4,False
+enc-pat-0096-83307,pat-0096,ambulatory,2025-11-15T10:00:00,2025-11-15T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0097-14903,pat-0097,virtual,2024-11-04T10:00:00,2024-11-04T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0097-75748,pat-0097,emergency,2024-05-01T10:00:00,2024-05-01T11:00:00,prov-0008,Acute presentation,0,True
+enc-pat-0097-54749,pat-0097,emergency,2024-10-12T10:00:00,2024-10-12T11:00:00,prov-0007,Acute presentation,0,True
+enc-pat-0097-92285,pat-0097,ambulatory,2023-10-20T10:00:00,2023-10-20T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0097-48745,pat-0097,ambulatory,2025-03-19T10:00:00,2025-03-19T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0097-84545,pat-0097,ambulatory,2023-11-08T10:00:00,2023-11-08T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0097-64158,pat-0097,ambulatory,2025-06-10T10:00:00,2025-06-10T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0097-30736,pat-0097,ambulatory,2026-03-12T10:00:00,2026-03-12T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0098-64932,pat-0098,ambulatory,2026-01-10T10:00:00,2026-01-10T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0098-90807,pat-0098,emergency,2024-06-17T10:00:00,2024-06-17T11:00:00,prov-0002,Acute presentation,0,True
+enc-pat-0098-98335,pat-0098,ambulatory,2024-01-24T10:00:00,2024-01-24T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0098-59487,pat-0098,inpatient,2024-12-15T10:00:00,2024-12-15T11:00:00,prov-0003,Follow-up,11,False
+enc-pat-0098-75422,pat-0098,ambulatory,2024-01-21T10:00:00,2024-01-21T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0099-71548,pat-0099,ambulatory,2026-03-02T10:00:00,2026-03-02T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0099-50291,pat-0099,emergency,2024-01-09T10:00:00,2024-01-09T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0099-41661,pat-0099,wellness,2023-12-09T10:00:00,2023-12-09T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0099-13440,pat-0099,ambulatory,2025-04-29T10:00:00,2025-04-29T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0099-90775,pat-0099,ambulatory,2023-10-05T10:00:00,2023-10-05T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0099-26558,pat-0099,ambulatory,2025-11-03T10:00:00,2025-11-03T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0099-11512,pat-0099,ambulatory,2026-03-24T10:00:00,2026-03-24T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0100-25045,pat-0100,virtual,2025-11-18T10:00:00,2025-11-18T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0100-74985,pat-0100,wellness,2025-08-30T10:00:00,2025-08-30T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0100-50840,pat-0100,emergency,2024-04-06T10:00:00,2024-04-06T11:00:00,prov-0002,Acute presentation,0,True
+enc-pat-0101-69347,pat-0101,ambulatory,2025-04-22T10:00:00,2025-04-22T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0101-79922,pat-0101,wellness,2023-10-11T10:00:00,2023-10-11T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0101-82935,pat-0101,wellness,2025-07-08T10:00:00,2025-07-08T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0101-23780,pat-0101,inpatient,2026-05-10T10:00:00,2026-05-10T11:00:00,prov-0005,Follow-up,4,False
+enc-pat-0101-15646,pat-0101,ambulatory,2024-01-21T10:00:00,2024-01-21T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0102-18996,pat-0102,wellness,2024-04-20T10:00:00,2024-04-20T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0102-34514,pat-0102,virtual,2026-06-11T10:00:00,2026-06-11T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0102-58467,pat-0102,wellness,2026-05-04T10:00:00,2026-05-04T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0102-99281,pat-0102,wellness,2025-01-12T10:00:00,2025-01-12T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0103-71940,pat-0103,virtual,2025-02-12T10:00:00,2025-02-12T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0104-32931,pat-0104,virtual,2023-10-20T10:00:00,2023-10-20T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0104-61252,pat-0104,virtual,2025-07-05T10:00:00,2025-07-05T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0104-11092,pat-0104,ambulatory,2025-07-07T10:00:00,2025-07-07T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0104-29690,pat-0104,wellness,2026-01-28T10:00:00,2026-01-28T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0104-31313,pat-0104,wellness,2024-09-27T10:00:00,2024-09-27T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0104-96540,pat-0104,wellness,2026-06-22T10:00:00,2026-06-22T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0104-86706,pat-0104,ambulatory,2024-06-07T10:00:00,2024-06-07T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0104-50728,pat-0104,ambulatory,2023-11-28T10:00:00,2023-11-28T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0105-53425,pat-0105,wellness,2024-11-25T10:00:00,2024-11-25T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0105-98562,pat-0105,ambulatory,2026-02-08T10:00:00,2026-02-08T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0105-72094,pat-0105,ambulatory,2025-10-17T10:00:00,2025-10-17T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0105-90315,pat-0105,ambulatory,2024-12-15T10:00:00,2024-12-15T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0105-48015,pat-0105,wellness,2025-12-04T10:00:00,2025-12-04T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0106-86116,pat-0106,ambulatory,2024-07-13T10:00:00,2024-07-13T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0106-41013,pat-0106,virtual,2025-11-02T10:00:00,2025-11-02T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0106-59063,pat-0106,wellness,2026-04-14T10:00:00,2026-04-14T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0107-20242,pat-0107,ambulatory,2024-01-15T10:00:00,2024-01-15T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0107-56911,pat-0107,ambulatory,2025-10-13T10:00:00,2025-10-13T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0107-71732,pat-0107,ambulatory,2023-12-27T10:00:00,2023-12-27T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0107-14230,pat-0107,emergency,2025-10-01T10:00:00,2025-10-01T11:00:00,prov-0005,Acute presentation,0,True
+enc-pat-0107-19556,pat-0107,ambulatory,2026-04-25T10:00:00,2026-04-25T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0107-14634,pat-0107,wellness,2023-12-14T10:00:00,2023-12-14T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0107-90272,pat-0107,wellness,2023-10-29T10:00:00,2023-10-29T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0108-62142,pat-0108,ambulatory,2025-09-01T10:00:00,2025-09-01T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0108-58094,pat-0108,ambulatory,2024-06-27T10:00:00,2024-06-27T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0108-27974,pat-0108,ambulatory,2026-04-08T10:00:00,2026-04-08T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0108-82478,pat-0108,ambulatory,2025-11-03T10:00:00,2025-11-03T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0109-81146,pat-0109,virtual,2026-04-01T10:00:00,2026-04-01T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0109-68170,pat-0109,inpatient,2025-08-03T10:00:00,2025-08-03T11:00:00,prov-0007,Follow-up,4,False
+enc-pat-0109-82279,pat-0109,virtual,2025-09-17T10:00:00,2025-09-17T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0109-46194,pat-0109,ambulatory,2025-04-02T10:00:00,2025-04-02T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0109-82536,pat-0109,ambulatory,2024-11-11T10:00:00,2024-11-11T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0110-86373,pat-0110,ambulatory,2023-11-08T10:00:00,2023-11-08T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0110-25891,pat-0110,wellness,2025-04-25T10:00:00,2025-04-25T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0110-41860,pat-0110,ambulatory,2023-12-08T10:00:00,2023-12-08T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0110-40192,pat-0110,wellness,2024-08-27T10:00:00,2024-08-27T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0110-47602,pat-0110,ambulatory,2024-10-15T10:00:00,2024-10-15T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0110-82689,pat-0110,ambulatory,2025-04-25T10:00:00,2025-04-25T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0111-33163,pat-0111,ambulatory,2025-06-04T10:00:00,2025-06-04T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0111-33385,pat-0111,ambulatory,2025-08-01T10:00:00,2025-08-01T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0111-25538,pat-0111,ambulatory,2025-07-07T10:00:00,2025-07-07T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0111-13584,pat-0111,emergency,2025-01-23T10:00:00,2025-01-23T11:00:00,prov-0009,Acute presentation,0,True
+enc-pat-0111-80505,pat-0111,virtual,2023-10-19T10:00:00,2023-10-19T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0111-24367,pat-0111,inpatient,2026-02-18T10:00:00,2026-02-18T11:00:00,prov-0011,Follow-up,6,False
+enc-pat-0111-52875,pat-0111,inpatient,2024-05-26T10:00:00,2024-05-26T11:00:00,prov-0002,Follow-up,3,False
+enc-pat-0111-78327,pat-0111,emergency,2023-11-16T10:00:00,2023-11-16T11:00:00,prov-0005,Acute presentation,0,True
+enc-pat-0112-52650,pat-0112,virtual,2025-04-24T10:00:00,2025-04-24T11:00:00,prov-0003,Follow-up,0,False
+enc-pat-0112-88781,pat-0112,inpatient,2024-02-18T10:00:00,2024-02-18T11:00:00,prov-0006,Follow-up,9,False
+enc-pat-0112-44170,pat-0112,wellness,2025-04-01T10:00:00,2025-04-01T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0112-91957,pat-0112,ambulatory,2024-12-26T10:00:00,2024-12-26T11:00:00,prov-0001,Follow-up,0,False
+enc-pat-0112-26936,pat-0112,wellness,2024-10-07T10:00:00,2024-10-07T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0113-29902,pat-0113,inpatient,2024-05-28T10:00:00,2024-05-28T11:00:00,prov-0001,Follow-up,11,False
+enc-pat-0114-73307,pat-0114,wellness,2025-08-02T10:00:00,2025-08-02T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0114-24898,pat-0114,virtual,2025-04-05T10:00:00,2025-04-05T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0114-48564,pat-0114,wellness,2026-02-27T10:00:00,2026-02-27T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0114-52255,pat-0114,ambulatory,2024-08-04T10:00:00,2024-08-04T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0115-87616,pat-0115,wellness,2025-07-24T10:00:00,2025-07-24T11:00:00,prov-0009,Follow-up,0,False
+enc-pat-0115-10032,pat-0115,ambulatory,2026-02-01T10:00:00,2026-02-01T11:00:00,prov-0005,Follow-up,0,False
+enc-pat-0115-59454,pat-0115,wellness,2025-10-24T10:00:00,2025-10-24T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0115-67310,pat-0115,ambulatory,2024-06-29T10:00:00,2024-06-29T11:00:00,prov-0008,Follow-up,0,False
+enc-pat-0115-65584,pat-0115,inpatient,2025-03-07T10:00:00,2025-03-07T11:00:00,prov-0003,Follow-up,7,False
+enc-pat-0115-58348,pat-0115,ambulatory,2025-08-14T10:00:00,2025-08-14T11:00:00,prov-0014,Follow-up,0,False
+enc-pat-0115-84996,pat-0115,wellness,2025-09-20T10:00:00,2025-09-20T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0116-92132,pat-0116,ambulatory,2025-12-19T10:00:00,2025-12-19T11:00:00,prov-0000,Follow-up,0,False
+enc-pat-0116-35046,pat-0116,virtual,2024-09-08T10:00:00,2024-09-08T11:00:00,prov-0011,Follow-up,0,False
+enc-pat-0117-90820,pat-0117,ambulatory,2024-05-18T10:00:00,2024-05-18T11:00:00,prov-0007,Follow-up,0,False
+enc-pat-0117-40710,pat-0117,ambulatory,2025-05-13T10:00:00,2025-05-13T11:00:00,prov-0012,Follow-up,0,False
+enc-pat-0117-65179,pat-0117,wellness,2023-11-21T10:00:00,2023-11-21T11:00:00,prov-0006,Follow-up,0,False
+enc-pat-0118-75726,pat-0118,ambulatory,2025-06-15T10:00:00,2025-06-15T11:00:00,prov-0013,Follow-up,0,False
+enc-pat-0118-47350,pat-0118,wellness,2025-12-25T10:00:00,2025-12-25T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0118-23291,pat-0118,ambulatory,2026-04-04T10:00:00,2026-04-04T11:00:00,prov-0010,Follow-up,0,False
+enc-pat-0118-65703,pat-0118,ambulatory,2024-04-29T10:00:00,2024-04-29T11:00:00,prov-0004,Follow-up,0,False
+enc-pat-0119-84588,pat-0119,inpatient,2023-11-30T10:00:00,2023-11-30T11:00:00,prov-0007,Follow-up,10,False
+enc-pat-0119-12933,pat-0119,wellness,2025-08-22T10:00:00,2025-08-22T11:00:00,prov-0002,Follow-up,0,False
+enc-pat-0119-20391,pat-0119,emergency,2025-10-07T10:00:00,2025-10-07T11:00:00,prov-0013,Acute presentation,0,True
+enc-pat-0119-35119,pat-0119,ambulatory,2023-10-13T10:00:00,2023-10-13T11:00:00,prov-0009,Follow-up,0,False

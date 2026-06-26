@@ -1,0 +1,43 @@
+# MediGraph AI — full stack.
+# `docker compose up` starts the Streamlit UI and the REST/FHIR API (offline mode).
+# Uncomment the `neo4j` service and the NEO4J_* env vars to run against a live graph.
+
+services:
+  ui:
+    build: .
+    image: medigraph-ai
+    command: streamlit run ui/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - MEDIGRAPH_ORG=Demo Health System
+      # - MEDIGRAPH_GRAPH_BACKEND=neo4j
+      # - NEO4J_URI=bolt://neo4j:7687
+      # - NEO4J_USER=neo4j
+      # - NEO4J_PASSWORD=medigraph123
+
+  api:
+    image: medigraph-ai
+    build: .
+    command: uvicorn medigraph.api.main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - MEDIGRAPH_SECRET_KEY=change-me-in-production
+    depends_on:
+      - ui
+
+  # ---- Optional live knowledge graph ----
+  # neo4j:
+  #   image: neo4j:5.20
+  #   ports:
+  #     - "7474:7474"   # browser
+  #     - "7687:7687"   # bolt
+  #   environment:
+  #     - NEO4J_AUTH=neo4j/medigraph123
+  #     - NEO4J_PLUGINS=["graph-data-science"]
+  #   volumes:
+  #     - neo4j_data:/data
+
+# volumes:
+#   neo4j_data:

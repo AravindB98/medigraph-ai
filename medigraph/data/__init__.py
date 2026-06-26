@@ -1,0 +1,1 @@
+"""Bundled synthetic data + generator."""

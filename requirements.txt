@@ -1,0 +1,27 @@
+# ---- Core (required for offline mode) ----
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+networkx>=3.1
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+plotly>=5.18.0
+
+# ---- API layer ----
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+
+# ---- Optional live integrations (safe to omit for offline use) ----
+neo4j>=5.15.0
+snowflake-connector-python>=3.6.0
+openai>=1.3.0
+
+# ---- Visualisation ----
+pyvis>=0.3.2
+
+# ---- Dev / test ----
+pytest>=7.4.0
+httpx>=0.26.0

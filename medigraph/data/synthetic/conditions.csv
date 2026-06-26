@@ -1,0 +1,353 @@
+patient_id,code_key,name,snomed,icd10,clinical_status,onset_date
+pat-0000,obesity,Obesity,414916001,E66.9,active,2018-10-22
+pat-0000,ckd,Chronic kidney disease,709044004,N18.9,active,2017-11-24
+pat-0001,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-03-28
+pat-0001,cad,Coronary artery disease,53741008,I25.10,active,2023-04-30
+pat-0001,anemia,Anemia,271737000,D64.9,active,2018-08-09
+pat-0002,htn,Essential hypertension,59621000,I10,active,2018-08-16
+pat-0002,oa,Osteoarthritis,396275006,M19.90,active,2020-11-08
+pat-0003,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2021-05-18
+pat-0003,ckd,Chronic kidney disease,709044004,N18.9,active,2025-07-24
+pat-0003,oa,Osteoarthritis,396275006,M19.90,active,2017-01-28
+pat-0004,obesity,Obesity,414916001,E66.9,active,2023-03-23
+pat-0004,anemia,Anemia,271737000,D64.9,active,2024-04-21
+pat-0005,htn,Essential hypertension,59621000,I10,active,2018-06-27
+pat-0005,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2023-07-21
+pat-0005,obesity,Obesity,414916001,E66.9,active,2021-11-10
+pat-0005,cad,Coronary artery disease,53741008,I25.10,active,2019-03-09
+pat-0006,hld,Hyperlipidemia,55822004,E78.5,active,2016-11-24
+pat-0006,chf,Heart failure,84114007,I50.9,active,2017-06-03
+pat-0007,htn,Essential hypertension,59621000,I10,active,2023-03-10
+pat-0007,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2023-06-06
+pat-0007,asthma,Asthma,195967001,J45.909,active,2017-07-07
+pat-0008,htn,Essential hypertension,59621000,I10,active,2018-12-01
+pat-0008,obesity,Obesity,414916001,E66.9,active,2024-12-24
+pat-0008,hypothyroid,Hypothyroidism,40930008,E03.9,active,2017-01-24
+pat-0008,oa,Osteoarthritis,396275006,M19.90,active,2021-12-22
+pat-0009,htn,Essential hypertension,59621000,I10,active,2016-09-30
+pat-0009,obesity,Obesity,414916001,E66.9,active,2022-03-13
+pat-0009,chf,Heart failure,84114007,I50.9,active,2017-07-15
+pat-0010,htn,Essential hypertension,59621000,I10,active,2024-07-28
+pat-0010,ckd,Chronic kidney disease,709044004,N18.9,active,2020-05-06
+pat-0011,hld,Hyperlipidemia,55822004,E78.5,active,2025-04-28
+pat-0012,htn,Essential hypertension,59621000,I10,active,2022-10-26
+pat-0012,ckd,Chronic kidney disease,709044004,N18.9,active,2023-09-14
+pat-0012,depression,Major depressive disorder,370143000,F32.9,active,2023-02-17
+pat-0012,oa,Osteoarthritis,396275006,M19.90,active,2020-06-01
+pat-0013,cad,Coronary artery disease,53741008,I25.10,active,2018-12-02
+pat-0013,chf,Heart failure,84114007,I50.9,active,2024-12-07
+pat-0013,anemia,Anemia,271737000,D64.9,active,2018-07-21
+pat-0014,hld,Hyperlipidemia,55822004,E78.5,active,2020-08-09
+pat-0014,afib,Atrial fibrillation,49436004,I48.91,active,2016-07-05
+pat-0014,ckd,Chronic kidney disease,709044004,N18.9,active,2025-01-20
+pat-0015,hld,Hyperlipidemia,55822004,E78.5,active,2019-03-29
+pat-0016,htn,Essential hypertension,59621000,I10,active,2020-12-28
+pat-0016,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2019-02-18
+pat-0016,hld,Hyperlipidemia,55822004,E78.5,active,2020-06-27
+pat-0016,obesity,Obesity,414916001,E66.9,active,2024-06-22
+pat-0016,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2018-05-07
+pat-0017,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2023-03-20
+pat-0017,hld,Hyperlipidemia,55822004,E78.5,active,2025-06-05
+pat-0017,obesity,Obesity,414916001,E66.9,active,2021-09-08
+pat-0017,oa,Osteoarthritis,396275006,M19.90,active,2020-03-22
+pat-0018,htn,Essential hypertension,59621000,I10,active,2020-08-15
+pat-0018,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2016-09-16
+pat-0018,afib,Atrial fibrillation,49436004,I48.91,active,2019-02-03
+pat-0018,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2020-01-15
+pat-0018,hypothyroid,Hypothyroidism,40930008,E03.9,active,2022-04-17
+pat-0019,hld,Hyperlipidemia,55822004,E78.5,active,2021-09-10
+pat-0019,obesity,Obesity,414916001,E66.9,active,2017-07-17
+pat-0020,htn,Essential hypertension,59621000,I10,active,2023-02-21
+pat-0020,cad,Coronary artery disease,53741008,I25.10,active,2022-02-17
+pat-0020,ckd,Chronic kidney disease,709044004,N18.9,active,2025-03-22
+pat-0020,oa,Osteoarthritis,396275006,M19.90,active,2018-10-20
+pat-0021,htn,Essential hypertension,59621000,I10,active,2019-12-18
+pat-0021,depression,Major depressive disorder,370143000,F32.9,active,2023-04-10
+pat-0022,hld,Hyperlipidemia,55822004,E78.5,active,2017-11-22
+pat-0022,depression,Major depressive disorder,370143000,F32.9,active,2023-01-26
+pat-0023,obesity,Obesity,414916001,E66.9,active,2025-02-28
+pat-0023,depression,Major depressive disorder,370143000,F32.9,active,2023-09-03
+pat-0025,htn,Essential hypertension,59621000,I10,active,2021-06-14
+pat-0025,hld,Hyperlipidemia,55822004,E78.5,active,2018-08-16
+pat-0025,cad,Coronary artery disease,53741008,I25.10,active,2019-02-09
+pat-0025,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2023-08-03
+pat-0025,oa,Osteoarthritis,396275006,M19.90,active,2024-11-08
+pat-0026,obesity,Obesity,414916001,E66.9,active,2020-03-19
+pat-0026,oa,Osteoarthritis,396275006,M19.90,active,2020-11-08
+pat-0027,htn,Essential hypertension,59621000,I10,active,2018-11-03
+pat-0027,anemia,Anemia,271737000,D64.9,active,2025-03-28
+pat-0028,htn,Essential hypertension,59621000,I10,active,2017-12-01
+pat-0028,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2016-09-24
+pat-0028,hld,Hyperlipidemia,55822004,E78.5,active,2021-10-24
+pat-0028,obesity,Obesity,414916001,E66.9,active,2018-06-12
+pat-0028,afib,Atrial fibrillation,49436004,I48.91,active,2016-12-22
+pat-0028,ckd,Chronic kidney disease,709044004,N18.9,active,2021-07-01
+pat-0028,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2020-10-11
+pat-0028,oa,Osteoarthritis,396275006,M19.90,active,2020-11-15
+pat-0028,stroke,History of stroke,230690007,I63.9,active,2023-09-30
+pat-0029,htn,Essential hypertension,59621000,I10,active,2017-05-11
+pat-0029,hld,Hyperlipidemia,55822004,E78.5,active,2024-02-25
+pat-0029,afib,Atrial fibrillation,49436004,I48.91,active,2021-12-23
+pat-0029,depression,Major depressive disorder,370143000,F32.9,active,2024-03-24
+pat-0030,obesity,Obesity,414916001,E66.9,active,2022-06-02
+pat-0030,afib,Atrial fibrillation,49436004,I48.91,active,2016-11-26
+pat-0030,ckd,Chronic kidney disease,709044004,N18.9,active,2020-09-14
+pat-0030,oa,Osteoarthritis,396275006,M19.90,active,2018-08-18
+pat-0031,htn,Essential hypertension,59621000,I10,active,2016-07-05
+pat-0031,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-10-08
+pat-0031,cad,Coronary artery disease,53741008,I25.10,active,2024-02-02
+pat-0031,ckd,Chronic kidney disease,709044004,N18.9,active,2024-12-13
+pat-0032,anemia,Anemia,271737000,D64.9,active,2020-08-31
+pat-0033,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2025-08-16
+pat-0034,obesity,Obesity,414916001,E66.9,active,2018-01-08
+pat-0034,asthma,Asthma,195967001,J45.909,active,2016-12-30
+pat-0034,anemia,Anemia,271737000,D64.9,active,2020-06-01
+pat-0035,htn,Essential hypertension,59621000,I10,active,2022-07-21
+pat-0035,chf,Heart failure,84114007,I50.9,active,2025-05-24
+pat-0035,depression,Major depressive disorder,370143000,F32.9,active,2023-10-25
+pat-0036,cad,Coronary artery disease,53741008,I25.10,active,2020-07-01
+pat-0036,oa,Osteoarthritis,396275006,M19.90,active,2017-10-06
+pat-0036,stroke,History of stroke,230690007,I63.9,active,2020-05-03
+pat-0037,hld,Hyperlipidemia,55822004,E78.5,active,2025-11-07
+pat-0037,ckd,Chronic kidney disease,709044004,N18.9,active,2024-12-26
+pat-0037,asthma,Asthma,195967001,J45.909,active,2017-11-18
+pat-0037,depression,Major depressive disorder,370143000,F32.9,active,2023-02-15
+pat-0038,hld,Hyperlipidemia,55822004,E78.5,active,2021-06-21
+pat-0038,afib,Atrial fibrillation,49436004,I48.91,active,2024-12-22
+pat-0039,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2018-06-03
+pat-0040,htn,Essential hypertension,59621000,I10,active,2025-12-05
+pat-0040,chf,Heart failure,84114007,I50.9,active,2020-05-10
+pat-0040,depression,Major depressive disorder,370143000,F32.9,active,2017-05-31
+pat-0040,anemia,Anemia,271737000,D64.9,active,2024-03-29
+pat-0041,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2021-08-05
+pat-0041,hld,Hyperlipidemia,55822004,E78.5,active,2017-05-03
+pat-0041,ckd,Chronic kidney disease,709044004,N18.9,active,2021-11-30
+pat-0042,htn,Essential hypertension,59621000,I10,active,2017-05-29
+pat-0042,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-01-20
+pat-0042,hld,Hyperlipidemia,55822004,E78.5,active,2019-11-24
+pat-0042,asthma,Asthma,195967001,J45.909,active,2018-08-27
+pat-0043,htn,Essential hypertension,59621000,I10,active,2023-09-21
+pat-0043,afib,Atrial fibrillation,49436004,I48.91,active,2025-02-11
+pat-0043,hypothyroid,Hypothyroidism,40930008,E03.9,active,2020-08-02
+pat-0044,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2016-12-16
+pat-0044,hld,Hyperlipidemia,55822004,E78.5,active,2021-04-08
+pat-0044,anemia,Anemia,271737000,D64.9,active,2016-11-13
+pat-0045,htn,Essential hypertension,59621000,I10,active,2025-11-16
+pat-0045,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2016-11-07
+pat-0045,obesity,Obesity,414916001,E66.9,active,2022-10-12
+pat-0045,afib,Atrial fibrillation,49436004,I48.91,active,2020-06-24
+pat-0045,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2021-03-02
+pat-0046,cad,Coronary artery disease,53741008,I25.10,active,2022-01-03
+pat-0047,hld,Hyperlipidemia,55822004,E78.5,active,2017-11-07
+pat-0047,obesity,Obesity,414916001,E66.9,active,2022-10-21
+pat-0047,hypothyroid,Hypothyroidism,40930008,E03.9,active,2016-10-11
+pat-0048,obesity,Obesity,414916001,E66.9,active,2019-02-01
+pat-0048,hypothyroid,Hypothyroidism,40930008,E03.9,active,2021-05-10
+pat-0049,htn,Essential hypertension,59621000,I10,active,2018-09-18
+pat-0049,stroke,History of stroke,230690007,I63.9,active,2020-01-22
+pat-0050,ckd,Chronic kidney disease,709044004,N18.9,active,2017-06-03
+pat-0051,ckd,Chronic kidney disease,709044004,N18.9,active,2017-05-18
+pat-0051,hypothyroid,Hypothyroidism,40930008,E03.9,active,2021-03-15
+pat-0052,htn,Essential hypertension,59621000,I10,active,2023-05-01
+pat-0052,ckd,Chronic kidney disease,709044004,N18.9,active,2023-09-24
+pat-0052,depression,Major depressive disorder,370143000,F32.9,active,2020-08-01
+pat-0052,oa,Osteoarthritis,396275006,M19.90,active,2022-03-07
+pat-0053,htn,Essential hypertension,59621000,I10,active,2025-01-11
+pat-0053,hld,Hyperlipidemia,55822004,E78.5,active,2019-04-24
+pat-0053,oa,Osteoarthritis,396275006,M19.90,active,2017-07-09
+pat-0054,htn,Essential hypertension,59621000,I10,active,2025-11-12
+pat-0054,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-10-26
+pat-0054,hld,Hyperlipidemia,55822004,E78.5,active,2020-07-15
+pat-0054,afib,Atrial fibrillation,49436004,I48.91,active,2024-06-15
+pat-0054,oa,Osteoarthritis,396275006,M19.90,active,2020-04-13
+pat-0055,obesity,Obesity,414916001,E66.9,active,2025-01-26
+pat-0055,cad,Coronary artery disease,53741008,I25.10,active,2025-02-18
+pat-0055,ckd,Chronic kidney disease,709044004,N18.9,active,2022-11-05
+pat-0056,obesity,Obesity,414916001,E66.9,active,2020-06-23
+pat-0056,cad,Coronary artery disease,53741008,I25.10,active,2019-12-07
+pat-0056,depression,Major depressive disorder,370143000,F32.9,active,2025-03-06
+pat-0056,hypothyroid,Hypothyroidism,40930008,E03.9,active,2017-11-01
+pat-0056,oa,Osteoarthritis,396275006,M19.90,active,2020-12-29
+pat-0056,stroke,History of stroke,230690007,I63.9,active,2020-05-31
+pat-0057,htn,Essential hypertension,59621000,I10,active,2024-12-29
+pat-0057,obesity,Obesity,414916001,E66.9,active,2018-03-21
+pat-0057,stroke,History of stroke,230690007,I63.9,active,2023-12-23
+pat-0058,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2024-06-18
+pat-0058,hld,Hyperlipidemia,55822004,E78.5,active,2020-10-10
+pat-0058,anemia,Anemia,271737000,D64.9,active,2020-02-22
+pat-0059,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-04-16
+pat-0059,hld,Hyperlipidemia,55822004,E78.5,active,2017-01-01
+pat-0059,obesity,Obesity,414916001,E66.9,active,2020-03-02
+pat-0059,anemia,Anemia,271737000,D64.9,active,2017-02-21
+pat-0060,obesity,Obesity,414916001,E66.9,active,2019-10-26
+pat-0060,cad,Coronary artery disease,53741008,I25.10,active,2025-09-19
+pat-0060,asthma,Asthma,195967001,J45.909,active,2018-10-21
+pat-0061,obesity,Obesity,414916001,E66.9,active,2023-11-29
+pat-0062,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2024-07-20
+pat-0062,obesity,Obesity,414916001,E66.9,active,2023-06-15
+pat-0062,depression,Major depressive disorder,370143000,F32.9,active,2020-07-25
+pat-0062,oa,Osteoarthritis,396275006,M19.90,active,2024-10-14
+pat-0062,stroke,History of stroke,230690007,I63.9,active,2018-08-06
+pat-0063,hld,Hyperlipidemia,55822004,E78.5,active,2021-07-26
+pat-0063,afib,Atrial fibrillation,49436004,I48.91,active,2024-02-07
+pat-0063,chf,Heart failure,84114007,I50.9,active,2023-10-06
+pat-0063,depression,Major depressive disorder,370143000,F32.9,active,2016-08-06
+pat-0064,hld,Hyperlipidemia,55822004,E78.5,active,2017-01-27
+pat-0064,obesity,Obesity,414916001,E66.9,active,2016-10-03
+pat-0064,anemia,Anemia,271737000,D64.9,active,2018-02-09
+pat-0065,cad,Coronary artery disease,53741008,I25.10,active,2021-08-03
+pat-0066,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2022-06-09
+pat-0067,hld,Hyperlipidemia,55822004,E78.5,active,2017-01-16
+pat-0067,obesity,Obesity,414916001,E66.9,active,2025-03-15
+pat-0067,chf,Heart failure,84114007,I50.9,active,2023-02-18
+pat-0067,ckd,Chronic kidney disease,709044004,N18.9,active,2017-05-08
+pat-0067,asthma,Asthma,195967001,J45.909,active,2023-08-30
+pat-0067,oa,Osteoarthritis,396275006,M19.90,active,2017-07-22
+pat-0068,depression,Major depressive disorder,370143000,F32.9,active,2025-11-27
+pat-0068,hypothyroid,Hypothyroidism,40930008,E03.9,active,2017-12-31
+pat-0070,obesity,Obesity,414916001,E66.9,active,2022-09-20
+pat-0070,oa,Osteoarthritis,396275006,M19.90,active,2021-05-02
+pat-0070,anemia,Anemia,271737000,D64.9,active,2016-08-19
+pat-0071,obesity,Obesity,414916001,E66.9,active,2021-06-19
+pat-0072,htn,Essential hypertension,59621000,I10,active,2018-01-06
+pat-0072,obesity,Obesity,414916001,E66.9,active,2021-03-25
+pat-0073,htn,Essential hypertension,59621000,I10,active,2017-10-31
+pat-0073,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2017-01-09
+pat-0073,ckd,Chronic kidney disease,709044004,N18.9,active,2018-06-23
+pat-0074,obesity,Obesity,414916001,E66.9,active,2016-11-18
+pat-0074,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2020-08-02
+pat-0075,htn,Essential hypertension,59621000,I10,active,2016-11-17
+pat-0075,ckd,Chronic kidney disease,709044004,N18.9,active,2021-11-03
+pat-0075,hypothyroid,Hypothyroidism,40930008,E03.9,active,2022-11-04
+pat-0076,obesity,Obesity,414916001,E66.9,active,2022-05-16
+pat-0076,oa,Osteoarthritis,396275006,M19.90,active,2022-11-17
+pat-0077,htn,Essential hypertension,59621000,I10,active,2023-04-28
+pat-0077,chf,Heart failure,84114007,I50.9,active,2019-04-08
+pat-0077,hypothyroid,Hypothyroidism,40930008,E03.9,active,2025-04-25
+pat-0078,hypothyroid,Hypothyroidism,40930008,E03.9,active,2025-08-29
+pat-0079,htn,Essential hypertension,59621000,I10,active,2024-07-12
+pat-0079,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2019-02-01
+pat-0080,htn,Essential hypertension,59621000,I10,active,2019-10-27
+pat-0080,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2017-07-26
+pat-0080,hld,Hyperlipidemia,55822004,E78.5,active,2021-01-04
+pat-0080,afib,Atrial fibrillation,49436004,I48.91,active,2020-04-01
+pat-0081,obesity,Obesity,414916001,E66.9,active,2019-05-31
+pat-0081,cad,Coronary artery disease,53741008,I25.10,active,2017-03-10
+pat-0081,afib,Atrial fibrillation,49436004,I48.91,active,2024-06-08
+pat-0082,htn,Essential hypertension,59621000,I10,active,2024-12-21
+pat-0083,htn,Essential hypertension,59621000,I10,active,2025-05-29
+pat-0083,hld,Hyperlipidemia,55822004,E78.5,active,2021-10-06
+pat-0083,ckd,Chronic kidney disease,709044004,N18.9,active,2021-04-07
+pat-0083,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2025-10-31
+pat-0083,oa,Osteoarthritis,396275006,M19.90,active,2024-11-29
+pat-0084,htn,Essential hypertension,59621000,I10,active,2023-03-16
+pat-0084,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2019-07-13
+pat-0084,hld,Hyperlipidemia,55822004,E78.5,active,2018-11-13
+pat-0084,obesity,Obesity,414916001,E66.9,active,2017-03-26
+pat-0084,oa,Osteoarthritis,396275006,M19.90,active,2017-02-04
+pat-0085,obesity,Obesity,414916001,E66.9,active,2022-09-16
+pat-0085,cad,Coronary artery disease,53741008,I25.10,active,2024-08-06
+pat-0085,depression,Major depressive disorder,370143000,F32.9,active,2025-04-23
+pat-0086,htn,Essential hypertension,59621000,I10,active,2020-01-01
+pat-0086,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2022-02-23
+pat-0087,afib,Atrial fibrillation,49436004,I48.91,active,2017-11-05
+pat-0088,obesity,Obesity,414916001,E66.9,active,2019-07-28
+pat-0088,ckd,Chronic kidney disease,709044004,N18.9,active,2019-05-07
+pat-0088,anemia,Anemia,271737000,D64.9,active,2017-01-28
+pat-0089,htn,Essential hypertension,59621000,I10,active,2018-08-13
+pat-0089,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2022-08-16
+pat-0089,hld,Hyperlipidemia,55822004,E78.5,active,2020-03-03
+pat-0089,chf,Heart failure,84114007,I50.9,active,2020-06-30
+pat-0089,oa,Osteoarthritis,396275006,M19.90,active,2024-11-19
+pat-0089,anemia,Anemia,271737000,D64.9,active,2025-08-01
+pat-0090,obesity,Obesity,414916001,E66.9,active,2025-02-25
+pat-0090,afib,Atrial fibrillation,49436004,I48.91,active,2022-01-12
+pat-0090,depression,Major depressive disorder,370143000,F32.9,active,2018-05-19
+pat-0090,anemia,Anemia,271737000,D64.9,active,2022-08-22
+pat-0091,htn,Essential hypertension,59621000,I10,active,2025-11-04
+pat-0091,hld,Hyperlipidemia,55822004,E78.5,active,2018-05-22
+pat-0091,chf,Heart failure,84114007,I50.9,active,2020-08-11
+pat-0092,htn,Essential hypertension,59621000,I10,active,2019-11-13
+pat-0092,hld,Hyperlipidemia,55822004,E78.5,active,2020-09-04
+pat-0092,cad,Coronary artery disease,53741008,I25.10,active,2017-11-29
+pat-0092,afib,Atrial fibrillation,49436004,I48.91,active,2024-07-24
+pat-0093,obesity,Obesity,414916001,E66.9,active,2017-02-16
+pat-0093,cad,Coronary artery disease,53741008,I25.10,active,2023-03-16
+pat-0094,htn,Essential hypertension,59621000,I10,active,2022-04-11
+pat-0094,hld,Hyperlipidemia,55822004,E78.5,active,2019-11-25
+pat-0094,afib,Atrial fibrillation,49436004,I48.91,active,2016-09-29
+pat-0094,chf,Heart failure,84114007,I50.9,active,2019-11-21
+pat-0094,depression,Major depressive disorder,370143000,F32.9,active,2023-06-25
+pat-0094,hypothyroid,Hypothyroidism,40930008,E03.9,active,2021-03-16
+pat-0095,oa,Osteoarthritis,396275006,M19.90,active,2025-10-20
+pat-0096,hld,Hyperlipidemia,55822004,E78.5,active,2017-07-28
+pat-0096,obesity,Obesity,414916001,E66.9,active,2024-03-13
+pat-0096,cad,Coronary artery disease,53741008,I25.10,active,2016-08-28
+pat-0097,hld,Hyperlipidemia,55822004,E78.5,active,2024-12-13
+pat-0097,cad,Coronary artery disease,53741008,I25.10,active,2021-12-30
+pat-0098,obesity,Obesity,414916001,E66.9,active,2025-09-27
+pat-0098,asthma,Asthma,195967001,J45.909,active,2021-06-14
+pat-0098,depression,Major depressive disorder,370143000,F32.9,active,2018-01-03
+pat-0099,htn,Essential hypertension,59621000,I10,active,2019-04-29
+pat-0099,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2021-02-08
+pat-0099,hld,Hyperlipidemia,55822004,E78.5,active,2016-07-08
+pat-0099,asthma,Asthma,195967001,J45.909,active,2025-01-05
+pat-0099,hypothyroid,Hypothyroidism,40930008,E03.9,active,2018-09-17
+pat-0099,oa,Osteoarthritis,396275006,M19.90,active,2021-05-20
+pat-0100,hld,Hyperlipidemia,55822004,E78.5,active,2020-12-09
+pat-0100,cad,Coronary artery disease,53741008,I25.10,active,2025-11-18
+pat-0100,anemia,Anemia,271737000,D64.9,active,2020-02-22
+pat-0101,htn,Essential hypertension,59621000,I10,active,2020-10-10
+pat-0101,hld,Hyperlipidemia,55822004,E78.5,active,2023-05-22
+pat-0101,ckd,Chronic kidney disease,709044004,N18.9,active,2022-11-17
+pat-0102,anemia,Anemia,271737000,D64.9,active,2021-12-01
+pat-0103,htn,Essential hypertension,59621000,I10,active,2023-12-02
+pat-0103,copd,Chronic obstructive pulmonary disease,13645005,J44.9,active,2023-11-23
+pat-0103,anemia,Anemia,271737000,D64.9,active,2023-01-14
+pat-0104,htn,Essential hypertension,59621000,I10,active,2020-03-09
+pat-0104,afib,Atrial fibrillation,49436004,I48.91,active,2018-04-22
+pat-0104,stroke,History of stroke,230690007,I63.9,active,2019-07-09
+pat-0105,htn,Essential hypertension,59621000,I10,active,2019-09-23
+pat-0105,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2017-05-25
+pat-0105,hld,Hyperlipidemia,55822004,E78.5,active,2017-07-09
+pat-0105,obesity,Obesity,414916001,E66.9,active,2022-08-09
+pat-0105,depression,Major depressive disorder,370143000,F32.9,active,2016-07-08
+pat-0105,stroke,History of stroke,230690007,I63.9,active,2016-12-09
+pat-0108,hld,Hyperlipidemia,55822004,E78.5,active,2018-02-17
+pat-0108,cad,Coronary artery disease,53741008,I25.10,active,2021-01-31
+pat-0108,afib,Atrial fibrillation,49436004,I48.91,active,2019-02-03
+pat-0108,depression,Major depressive disorder,370143000,F32.9,active,2023-05-24
+pat-0108,hypothyroid,Hypothyroidism,40930008,E03.9,active,2025-11-18
+pat-0108,oa,Osteoarthritis,396275006,M19.90,active,2017-08-12
+pat-0109,htn,Essential hypertension,59621000,I10,active,2017-11-09
+pat-0109,chf,Heart failure,84114007,I50.9,active,2024-10-08
+pat-0110,hld,Hyperlipidemia,55822004,E78.5,active,2022-05-02
+pat-0110,depression,Major depressive disorder,370143000,F32.9,active,2021-11-12
+pat-0110,hypothyroid,Hypothyroidism,40930008,E03.9,active,2024-04-24
+pat-0110,stroke,History of stroke,230690007,I63.9,active,2019-03-02
+pat-0112,htn,Essential hypertension,59621000,I10,active,2021-04-22
+pat-0113,htn,Essential hypertension,59621000,I10,active,2017-10-09
+pat-0113,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2025-11-04
+pat-0113,hld,Hyperlipidemia,55822004,E78.5,active,2025-10-08
+pat-0113,ckd,Chronic kidney disease,709044004,N18.9,active,2022-10-27
+pat-0114,htn,Essential hypertension,59621000,I10,active,2018-12-06
+pat-0114,hld,Hyperlipidemia,55822004,E78.5,active,2024-02-05
+pat-0114,obesity,Obesity,414916001,E66.9,active,2020-07-02
+pat-0114,afib,Atrial fibrillation,49436004,I48.91,active,2021-06-22
+pat-0114,oa,Osteoarthritis,396275006,M19.90,active,2022-07-03
+pat-0115,hld,Hyperlipidemia,55822004,E78.5,active,2025-11-02
+pat-0115,cad,Coronary artery disease,53741008,I25.10,active,2016-10-16
+pat-0116,htn,Essential hypertension,59621000,I10,active,2016-08-07
+pat-0116,hld,Hyperlipidemia,55822004,E78.5,active,2023-10-31
+pat-0116,chf,Heart failure,84114007,I50.9,active,2021-01-08
+pat-0116,ckd,Chronic kidney disease,709044004,N18.9,active,2019-03-04
+pat-0116,stroke,History of stroke,230690007,I63.9,active,2022-12-04
+pat-0117,t2dm,Type 2 diabetes mellitus,44054006,E11.9,active,2020-10-01
+pat-0117,hld,Hyperlipidemia,55822004,E78.5,active,2024-09-13
+pat-0117,oa,Osteoarthritis,396275006,M19.90,active,2021-12-21
+pat-0117,anemia,Anemia,271737000,D64.9,active,2021-04-08
+pat-0118,cad,Coronary artery disease,53741008,I25.10,active,2024-07-21
+pat-0119,hld,Hyperlipidemia,55822004,E78.5,active,2022-12-31
+pat-0119,obesity,Obesity,414916001,E66.9,active,2021-12-29
+pat-0119,ckd,Chronic kidney disease,709044004,N18.9,active,2024-09-28
+pat-0119,asthma,Asthma,195967001,J45.909,active,2017-09-17

@@ -1,0 +1,16 @@
+id,name,specialty,npi,hpr_id,organization,state,country
+prov-0000,Dr. James Rodriguez,Family Medicine,3342331444,,Denver Health System,CO,US
+prov-0001,Dr. Mary Smith,Family Medicine,3585650756,,Austin Health System,TX,US
+prov-0002,Dr. Sofia Anderson,Endocrinology,7825844140,,Denver Health System,CO,US
+prov-0003,Dr. James Garcia,Cardiology,2193448329,,Phoenix Health System,AZ,US
+prov-0004,Dr. Priya Reddy,Endocrinology,,HPR-5710360983,Chennai Multispeciality Hospital,TN,IN
+prov-0005,Dr. Maria Rodriguez,Pulmonology,9256195745,,Boston Health System,MA,US
+prov-0006,Dr. Aadhya Khan,Pulmonology,,HPR-1298737106,Delhi Multispeciality Hospital,DL,IN
+prov-0007,Dr. Elizabeth Williams,General Practice,5728765136,,Denver Health System,CO,US
+prov-0008,Dr. Divya Khan,Cardiology,,HPR-2525876051,Mumbai Multispeciality Hospital,MH,IN
+prov-0009,Dr. Sofia Williams,Nephrology,4131575764,,Seattle Health System,WA,US
+prov-0010,Dr. Kabir Rao,Pulmonology,,HPR-1240251661,Delhi Multispeciality Hospital,DL,IN
+prov-0011,Dr. William Wilson,Internal Medicine,2351531223,,Chicago Health System,IL,US
+prov-0012,Dr. Richard Lee,Cardiology,1599707677,,Seattle Health System,WA,US
+prov-0013,Dr. Nancy Rodriguez,Nephrology,7010379415,,Phoenix Health System,AZ,US
+prov-0014,Dr. Arjun Balaji,General Practice,,HPR-1470939445,Chennai Multispeciality Hospital,TN,IN

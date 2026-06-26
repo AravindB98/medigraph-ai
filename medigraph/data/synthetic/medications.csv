@@ -1,0 +1,315 @@
+patient_id,code_key,name,rxnorm,drug_class,status,start_date
+pat-0001,metformin,Metformin,6809,biguanide,active,2023-11-28
+pat-0001,atorvastatin,Atorvastatin,83367,statin,active,2022-03-27
+pat-0001,aspirin,Aspirin,1191,antiplatelet,active,2025-12-25
+pat-0002,lisinopril,Lisinopril,29046,ACE inhibitor,active,2025-11-29
+pat-0002,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-05-14
+pat-0003,metformin,Metformin,6809,biguanide,active,2022-08-16
+pat-0003,insulin_glargine,Insulin glargine,274783,insulin,active,2024-06-25
+pat-0003,atorvastatin,Atorvastatin,83367,statin,active,2025-12-07
+pat-0003,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-09-23
+pat-0004,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-06-07
+pat-0005,metformin,Metformin,6809,biguanide,active,2022-04-25
+pat-0005,insulin_glargine,Insulin glargine,274783,insulin,active,2023-01-02
+pat-0005,amlodipine,Amlodipine,17767,calcium channel blocker,active,2025-10-02
+pat-0005,atorvastatin,Atorvastatin,83367,statin,active,2022-06-27
+pat-0005,aspirin,Aspirin,1191,antiplatelet,active,2021-11-10
+pat-0006,atorvastatin,Atorvastatin,83367,statin,active,2023-02-19
+pat-0006,furosemide,Furosemide,4603,loop diuretic,active,2022-11-04
+pat-0006,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2022-03-05
+pat-0006,digoxin,Digoxin,3407,cardiac glycoside,active,2022-01-17
+pat-0006,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-02-20
+pat-0007,metformin,Metformin,6809,biguanide,active,2023-11-18
+pat-0007,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2025-10-24
+pat-0007,atorvastatin,Atorvastatin,83367,statin,active,2024-07-10
+pat-0007,albuterol,Albuterol,435,SABA bronchodilator,active,2022-07-26
+pat-0007,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-06-03
+pat-0008,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2023-02-24
+pat-0008,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2025-04-25
+pat-0008,gabapentin,Gabapentin,25480,anticonvulsant,active,2025-11-18
+pat-0009,lisinopril,Lisinopril,29046,ACE inhibitor,active,2024-11-03
+pat-0009,furosemide,Furosemide,4603,loop diuretic,active,2023-10-10
+pat-0009,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2022-02-15
+pat-0010,lisinopril,Lisinopril,29046,ACE inhibitor,active,2025-12-25
+pat-0011,atorvastatin,Atorvastatin,83367,statin,active,2025-02-17
+pat-0011,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-08-15
+pat-0012,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2023-05-04
+pat-0012,sertraline,Sertraline,36437,SSRI,active,2023-07-09
+pat-0013,atorvastatin,Atorvastatin,83367,statin,active,2024-05-12
+pat-0013,clopidogrel,Clopidogrel,32968,antiplatelet,active,2025-08-07
+pat-0013,furosemide,Furosemide,4603,loop diuretic,active,2022-12-27
+pat-0013,digoxin,Digoxin,3407,cardiac glycoside,active,2023-03-11
+pat-0014,atorvastatin,Atorvastatin,83367,statin,active,2024-05-13
+pat-0016,metformin,Metformin,6809,biguanide,active,2024-08-22
+pat-0016,amlodipine,Amlodipine,17767,calcium channel blocker,active,2021-11-15
+pat-0016,metoprolol,Metoprolol,6918,beta blocker,active,2025-01-24
+pat-0016,atorvastatin,Atorvastatin,83367,statin,active,2025-03-13
+pat-0016,albuterol,Albuterol,435,SABA bronchodilator,active,2021-11-18
+pat-0016,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2021-11-22
+pat-0017,metformin,Metformin,6809,biguanide,active,2023-07-15
+pat-0017,insulin_glargine,Insulin glargine,274783,insulin,active,2024-02-13
+pat-0017,atorvastatin,Atorvastatin,83367,statin,active,2024-12-21
+pat-0017,gabapentin,Gabapentin,25480,anticonvulsant,active,2024-05-06
+pat-0017,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-09-29
+pat-0018,metformin,Metformin,6809,biguanide,active,2026-04-18
+pat-0018,amlodipine,Amlodipine,17767,calcium channel blocker,active,2024-01-16
+pat-0018,warfarin,Warfarin,11289,anticoagulant,active,2022-01-31
+pat-0018,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2024-09-17
+pat-0018,albuterol,Albuterol,435,SABA bronchodilator,active,2024-07-10
+pat-0018,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-12-28
+pat-0020,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2024-03-23
+pat-0020,atorvastatin,Atorvastatin,83367,statin,active,2024-03-16
+pat-0020,aspirin,Aspirin,1191,antiplatelet,active,2022-08-29
+pat-0020,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-04-24
+pat-0021,losartan,Losartan,52175,ARB,active,2025-10-21
+pat-0021,sertraline,Sertraline,36437,SSRI,active,2021-09-03
+pat-0021,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-10-26
+pat-0022,atorvastatin,Atorvastatin,83367,statin,active,2025-01-12
+pat-0022,sertraline,Sertraline,36437,SSRI,active,2024-03-12
+pat-0023,sertraline,Sertraline,36437,SSRI,active,2025-11-22
+pat-0023,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-03-01
+pat-0025,losartan,Losartan,52175,ARB,active,2024-06-30
+pat-0025,metoprolol,Metoprolol,6918,beta blocker,active,2025-09-07
+pat-0025,atorvastatin,Atorvastatin,83367,statin,active,2023-07-31
+pat-0025,clopidogrel,Clopidogrel,32968,antiplatelet,active,2022-12-23
+pat-0025,albuterol,Albuterol,435,SABA bronchodilator,active,2024-02-23
+pat-0027,lisinopril,Lisinopril,29046,ACE inhibitor,active,2024-11-08
+pat-0027,metoprolol,Metoprolol,6918,beta blocker,active,2025-12-26
+pat-0028,metformin,Metformin,6809,biguanide,active,2021-12-04
+pat-0028,insulin_glargine,Insulin glargine,274783,insulin,active,2022-10-31
+pat-0028,amlodipine,Amlodipine,17767,calcium channel blocker,active,2023-09-21
+pat-0028,metoprolol,Metoprolol,6918,beta blocker,active,2023-07-23
+pat-0028,albuterol,Albuterol,435,SABA bronchodilator,active,2022-03-20
+pat-0029,amlodipine,Amlodipine,17767,calcium channel blocker,active,2021-08-21
+pat-0029,atorvastatin,Atorvastatin,83367,statin,active,2022-05-03
+pat-0029,apixaban,Apixaban,1364430,anticoagulant,active,2024-02-07
+pat-0029,sertraline,Sertraline,36437,SSRI,active,2023-06-12
+pat-0029,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-08-24
+pat-0031,metformin,Metformin,6809,biguanide,active,2023-11-21
+pat-0031,insulin_glargine,Insulin glargine,274783,insulin,active,2025-10-03
+pat-0031,losartan,Losartan,52175,ARB,active,2025-03-04
+pat-0031,atorvastatin,Atorvastatin,83367,statin,active,2023-03-21
+pat-0033,albuterol,Albuterol,435,SABA bronchodilator,active,2022-10-05
+pat-0034,albuterol,Albuterol,435,SABA bronchodilator,active,2024-08-31
+pat-0034,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-12-23
+pat-0035,lisinopril,Lisinopril,29046,ACE inhibitor,active,2025-06-24
+pat-0035,metoprolol,Metoprolol,6918,beta blocker,active,2025-03-14
+pat-0035,furosemide,Furosemide,4603,loop diuretic,active,2024-05-27
+pat-0035,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2023-02-17
+pat-0035,sertraline,Sertraline,36437,SSRI,active,2023-10-04
+pat-0035,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-04-24
+pat-0036,atorvastatin,Atorvastatin,83367,statin,active,2022-09-04
+pat-0036,gabapentin,Gabapentin,25480,anticonvulsant,active,2022-09-25
+pat-0036,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-04-29
+pat-0037,atorvastatin,Atorvastatin,83367,statin,active,2021-10-06
+pat-0037,albuterol,Albuterol,435,SABA bronchodilator,active,2025-05-06
+pat-0037,sertraline,Sertraline,36437,SSRI,active,2026-02-07
+pat-0039,metformin,Metformin,6809,biguanide,active,2024-07-27
+pat-0039,atorvastatin,Atorvastatin,83367,statin,active,2022-02-25
+pat-0039,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-11-05
+pat-0040,amlodipine,Amlodipine,17767,calcium channel blocker,active,2025-07-23
+pat-0040,furosemide,Furosemide,4603,loop diuretic,active,2021-11-09
+pat-0040,sertraline,Sertraline,36437,SSRI,active,2022-10-08
+pat-0040,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-07-11
+pat-0041,metformin,Metformin,6809,biguanide,active,2023-10-28
+pat-0041,insulin_glargine,Insulin glargine,274783,insulin,active,2023-02-24
+pat-0042,metformin,Metformin,6809,biguanide,active,2023-01-16
+pat-0042,insulin_glargine,Insulin glargine,274783,insulin,active,2023-04-27
+pat-0042,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2023-02-27
+pat-0042,metoprolol,Metoprolol,6918,beta blocker,active,2024-10-11
+pat-0042,albuterol,Albuterol,435,SABA bronchodilator,active,2024-02-05
+pat-0043,losartan,Losartan,52175,ARB,active,2023-07-28
+pat-0043,metoprolol,Metoprolol,6918,beta blocker,active,2022-01-14
+pat-0043,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2024-10-02
+pat-0044,metformin,Metformin,6809,biguanide,active,2024-11-24
+pat-0044,atorvastatin,Atorvastatin,83367,statin,active,2023-10-20
+pat-0045,metformin,Metformin,6809,biguanide,active,2023-11-15
+pat-0045,amlodipine,Amlodipine,17767,calcium channel blocker,active,2022-04-25
+pat-0045,atorvastatin,Atorvastatin,83367,statin,active,2024-03-15
+pat-0045,warfarin,Warfarin,11289,anticoagulant,active,2023-12-16
+pat-0045,albuterol,Albuterol,435,SABA bronchodilator,active,2022-10-26
+pat-0045,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-01-14
+pat-0046,atorvastatin,Atorvastatin,83367,statin,active,2022-06-17
+pat-0046,aspirin,Aspirin,1191,antiplatelet,active,2024-12-01
+pat-0047,atorvastatin,Atorvastatin,83367,statin,active,2023-02-15
+pat-0047,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2023-02-13
+pat-0047,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2026-02-10
+pat-0048,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2022-12-29
+pat-0049,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2024-02-13
+pat-0049,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-06-27
+pat-0050,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-11-11
+pat-0051,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2025-08-22
+pat-0052,losartan,Losartan,52175,ARB,active,2021-12-22
+pat-0052,metoprolol,Metoprolol,6918,beta blocker,active,2022-01-04
+pat-0052,sertraline,Sertraline,36437,SSRI,active,2025-10-09
+pat-0053,lisinopril,Lisinopril,29046,ACE inhibitor,active,2021-10-07
+pat-0053,gabapentin,Gabapentin,25480,anticonvulsant,active,2024-08-01
+pat-0054,metformin,Metformin,6809,biguanide,active,2024-03-02
+pat-0054,amlodipine,Amlodipine,17767,calcium channel blocker,active,2023-12-11
+pat-0054,atorvastatin,Atorvastatin,83367,statin,active,2021-07-29
+pat-0054,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-04-06
+pat-0055,atorvastatin,Atorvastatin,83367,statin,active,2025-05-04
+pat-0055,aspirin,Aspirin,1191,antiplatelet,active,2023-08-09
+pat-0055,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-05-14
+pat-0056,atorvastatin,Atorvastatin,83367,statin,active,2026-02-10
+pat-0056,clopidogrel,Clopidogrel,32968,antiplatelet,active,2025-06-22
+pat-0056,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2022-05-26
+pat-0056,sertraline,Sertraline,36437,SSRI,active,2024-06-22
+pat-0057,lisinopril,Lisinopril,29046,ACE inhibitor,active,2022-10-22
+pat-0058,metformin,Metformin,6809,biguanide,active,2023-08-01
+pat-0058,atorvastatin,Atorvastatin,83367,statin,active,2023-09-02
+pat-0059,metformin,Metformin,6809,biguanide,active,2024-08-09
+pat-0059,insulin_glargine,Insulin glargine,274783,insulin,active,2024-11-12
+pat-0059,atorvastatin,Atorvastatin,83367,statin,active,2024-03-28
+pat-0060,atorvastatin,Atorvastatin,83367,statin,active,2021-07-24
+pat-0060,aspirin,Aspirin,1191,antiplatelet,active,2023-06-15
+pat-0060,albuterol,Albuterol,435,SABA bronchodilator,active,2024-02-11
+pat-0060,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-07-17
+pat-0062,metformin,Metformin,6809,biguanide,active,2025-12-28
+pat-0062,sertraline,Sertraline,36437,SSRI,active,2026-01-30
+pat-0062,gabapentin,Gabapentin,25480,anticonvulsant,active,2022-07-31
+pat-0062,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-10-13
+pat-0063,atorvastatin,Atorvastatin,83367,statin,active,2022-01-31
+pat-0063,furosemide,Furosemide,4603,loop diuretic,active,2022-09-18
+pat-0063,sertraline,Sertraline,36437,SSRI,active,2022-08-02
+pat-0064,atorvastatin,Atorvastatin,83367,statin,active,2025-04-11
+pat-0065,aspirin,Aspirin,1191,antiplatelet,active,2024-10-14
+pat-0066,metformin,Metformin,6809,biguanide,active,2024-11-04
+pat-0066,atorvastatin,Atorvastatin,83367,statin,active,2025-05-26
+pat-0067,atorvastatin,Atorvastatin,83367,statin,active,2021-10-31
+pat-0067,furosemide,Furosemide,4603,loop diuretic,active,2023-11-25
+pat-0067,albuterol,Albuterol,435,SABA bronchodilator,active,2022-06-26
+pat-0068,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2023-01-29
+pat-0068,sertraline,Sertraline,36437,SSRI,active,2022-12-25
+pat-0071,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-06-12
+pat-0072,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2022-06-17
+pat-0073,metformin,Metformin,6809,biguanide,active,2022-05-11
+pat-0073,insulin_glargine,Insulin glargine,274783,insulin,active,2022-09-15
+pat-0073,lisinopril,Lisinopril,29046,ACE inhibitor,active,2022-09-18
+pat-0073,atorvastatin,Atorvastatin,83367,statin,active,2022-11-08
+pat-0074,albuterol,Albuterol,435,SABA bronchodilator,active,2021-08-11
+pat-0075,losartan,Losartan,52175,ARB,active,2021-10-16
+pat-0075,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2025-01-04
+pat-0076,gabapentin,Gabapentin,25480,anticonvulsant,active,2024-02-16
+pat-0076,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-11-12
+pat-0077,lisinopril,Lisinopril,29046,ACE inhibitor,active,2021-12-08
+pat-0077,metoprolol,Metoprolol,6918,beta blocker,active,2021-10-28
+pat-0077,furosemide,Furosemide,4603,loop diuretic,active,2023-11-05
+pat-0077,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2022-11-25
+pat-0077,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2025-12-15
+pat-0077,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2026-01-04
+pat-0078,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2022-10-14
+pat-0079,losartan,Losartan,52175,ARB,active,2025-08-13
+pat-0079,albuterol,Albuterol,435,SABA bronchodilator,active,2023-01-18
+pat-0080,metformin,Metformin,6809,biguanide,active,2022-09-15
+pat-0080,insulin_glargine,Insulin glargine,274783,insulin,active,2025-11-11
+pat-0080,losartan,Losartan,52175,ARB,active,2021-08-07
+pat-0080,atorvastatin,Atorvastatin,83367,statin,active,2025-11-19
+pat-0081,atorvastatin,Atorvastatin,83367,statin,active,2023-04-30
+pat-0081,clopidogrel,Clopidogrel,32968,antiplatelet,active,2025-09-18
+pat-0081,apixaban,Apixaban,1364430,anticoagulant,active,2022-09-28
+pat-0082,amlodipine,Amlodipine,17767,calcium channel blocker,active,2022-05-29
+pat-0083,amlodipine,Amlodipine,17767,calcium channel blocker,active,2022-04-07
+pat-0083,metoprolol,Metoprolol,6918,beta blocker,active,2023-12-29
+pat-0083,atorvastatin,Atorvastatin,83367,statin,active,2021-10-01
+pat-0083,albuterol,Albuterol,435,SABA bronchodilator,active,2024-06-28
+pat-0083,gabapentin,Gabapentin,25480,anticonvulsant,active,2022-10-23
+pat-0083,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-02-28
+pat-0084,metformin,Metformin,6809,biguanide,active,2023-12-05
+pat-0084,losartan,Losartan,52175,ARB,active,2022-12-27
+pat-0084,atorvastatin,Atorvastatin,83367,statin,active,2025-05-04
+pat-0084,gabapentin,Gabapentin,25480,anticonvulsant,active,2023-09-22
+pat-0085,atorvastatin,Atorvastatin,83367,statin,active,2025-02-20
+pat-0085,aspirin,Aspirin,1191,antiplatelet,active,2024-03-20
+pat-0085,sertraline,Sertraline,36437,SSRI,active,2022-12-11
+pat-0086,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2021-10-16
+pat-0086,metoprolol,Metoprolol,6918,beta blocker,active,2024-11-14
+pat-0086,albuterol,Albuterol,435,SABA bronchodilator,active,2025-09-04
+pat-0086,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-09-12
+pat-0089,metformin,Metformin,6809,biguanide,active,2025-04-08
+pat-0089,insulin_glargine,Insulin glargine,274783,insulin,active,2021-08-27
+pat-0089,amlodipine,Amlodipine,17767,calcium channel blocker,active,2025-07-28
+pat-0089,atorvastatin,Atorvastatin,83367,statin,active,2024-04-23
+pat-0089,furosemide,Furosemide,4603,loop diuretic,active,2024-10-07
+pat-0089,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2022-11-01
+pat-0089,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-09-06
+pat-0090,apixaban,Apixaban,1364430,anticoagulant,active,2025-02-16
+pat-0090,sertraline,Sertraline,36437,SSRI,active,2026-04-24
+pat-0091,losartan,Losartan,52175,ARB,active,2022-05-24
+pat-0091,metoprolol,Metoprolol,6918,beta blocker,active,2021-09-21
+pat-0091,atorvastatin,Atorvastatin,83367,statin,active,2023-09-01
+pat-0091,furosemide,Furosemide,4603,loop diuretic,active,2022-05-13
+pat-0091,digoxin,Digoxin,3407,cardiac glycoside,active,2022-03-25
+pat-0092,lisinopril,Lisinopril,29046,ACE inhibitor,active,2023-11-17
+pat-0092,metoprolol,Metoprolol,6918,beta blocker,active,2023-12-22
+pat-0092,atorvastatin,Atorvastatin,83367,statin,active,2023-07-02
+pat-0092,apixaban,Apixaban,1364430,anticoagulant,active,2022-06-02
+pat-0093,atorvastatin,Atorvastatin,83367,statin,active,2022-11-23
+pat-0093,aspirin,Aspirin,1191,antiplatelet,active,2022-10-25
+pat-0094,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2022-06-22
+pat-0094,warfarin,Warfarin,11289,anticoagulant,active,2025-09-15
+pat-0094,furosemide,Furosemide,4603,loop diuretic,active,2025-01-24
+pat-0094,spironolactone,Spironolactone,9997,aldosterone antagonist,active,2024-09-28
+pat-0094,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2022-11-15
+pat-0094,sertraline,Sertraline,36437,SSRI,active,2024-06-14
+pat-0094,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-11-06
+pat-0095,gabapentin,Gabapentin,25480,anticonvulsant,active,2025-09-15
+pat-0095,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-05-13
+pat-0096,atorvastatin,Atorvastatin,83367,statin,active,2024-03-16
+pat-0096,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-02-19
+pat-0097,atorvastatin,Atorvastatin,83367,statin,active,2023-07-05
+pat-0097,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-01-12
+pat-0098,albuterol,Albuterol,435,SABA bronchodilator,active,2025-04-17
+pat-0098,sertraline,Sertraline,36437,SSRI,active,2021-09-01
+pat-0098,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2023-12-03
+pat-0099,metformin,Metformin,6809,biguanide,active,2022-10-29
+pat-0099,lisinopril,Lisinopril,29046,ACE inhibitor,active,2022-10-09
+pat-0099,atorvastatin,Atorvastatin,83367,statin,active,2026-02-21
+pat-0099,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2022-07-31
+pat-0099,albuterol,Albuterol,435,SABA bronchodilator,active,2024-09-12
+pat-0099,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2021-12-19
+pat-0100,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2026-02-27
+pat-0101,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2024-07-17
+pat-0101,atorvastatin,Atorvastatin,83367,statin,active,2026-01-17
+pat-0103,lisinopril,Lisinopril,29046,ACE inhibitor,active,2025-05-14
+pat-0103,albuterol,Albuterol,435,SABA bronchodilator,active,2026-04-09
+pat-0104,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2024-04-22
+pat-0104,metoprolol,Metoprolol,6918,beta blocker,active,2025-10-28
+pat-0104,apixaban,Apixaban,1364430,anticoagulant,active,2022-09-28
+pat-0104,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2024-10-15
+pat-0105,metformin,Metformin,6809,biguanide,active,2023-06-03
+pat-0105,lisinopril,Lisinopril,29046,ACE inhibitor,active,2025-11-06
+pat-0105,metoprolol,Metoprolol,6918,beta blocker,active,2021-09-02
+pat-0105,sertraline,Sertraline,36437,SSRI,active,2025-09-21
+pat-0108,atorvastatin,Atorvastatin,83367,statin,active,2026-01-25
+pat-0108,warfarin,Warfarin,11289,anticoagulant,active,2021-10-07
+pat-0108,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2026-01-02
+pat-0108,sertraline,Sertraline,36437,SSRI,active,2025-11-23
+pat-0108,gabapentin,Gabapentin,25480,anticonvulsant,active,2023-11-12
+pat-0108,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2026-01-29
+pat-0109,losartan,Losartan,52175,ARB,active,2025-05-31
+pat-0109,furosemide,Furosemide,4603,loop diuretic,active,2023-09-14
+pat-0109,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2026-03-28
+pat-0110,atorvastatin,Atorvastatin,83367,statin,active,2022-04-24
+pat-0110,levothyroxine,Levothyroxine,10582,thyroid hormone,active,2021-12-11
+pat-0110,sertraline,Sertraline,36437,SSRI,active,2022-03-01
+pat-0112,hctz,Hydrochlorothiazide,5487,thiazide diuretic,active,2024-08-31
+pat-0112,metoprolol,Metoprolol,6918,beta blocker,active,2025-09-10
+pat-0113,metformin,Metformin,6809,biguanide,active,2022-08-25
+pat-0113,losartan,Losartan,52175,ARB,active,2025-11-06
+pat-0113,metoprolol,Metoprolol,6918,beta blocker,active,2023-06-30
+pat-0114,lisinopril,Lisinopril,29046,ACE inhibitor,active,2024-07-09
+pat-0114,atorvastatin,Atorvastatin,83367,statin,active,2026-04-17
+pat-0114,warfarin,Warfarin,11289,anticoagulant,active,2022-02-02
+pat-0115,atorvastatin,Atorvastatin,83367,statin,active,2025-02-09
+pat-0115,clopidogrel,Clopidogrel,32968,antiplatelet,active,2023-03-01
+pat-0115,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2021-11-08
+pat-0116,lisinopril,Lisinopril,29046,ACE inhibitor,active,2024-05-29
+pat-0116,furosemide,Furosemide,4603,loop diuretic,active,2025-11-03
+pat-0116,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2025-10-25
+pat-0117,metformin,Metformin,6809,biguanide,active,2023-08-29
+pat-0117,insulin_glargine,Insulin glargine,274783,insulin,active,2022-09-10
+pat-0117,gabapentin,Gabapentin,25480,anticonvulsant,active,2024-04-25
+pat-0118,omeprazole,Omeprazole,7646,proton pump inhibitor,active,2022-11-29
+pat-0119,atorvastatin,Atorvastatin,83367,statin,active,2024-10-13
+pat-0119,albuterol,Albuterol,435,SABA bronchodilator,active,2024-05-21

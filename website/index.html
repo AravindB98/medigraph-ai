@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MediGraph AI — Clinical Knowledge Graph & Decision Support Platform</title>
+<meta name="description" content="MediGraph AI turns fragmented EHR data into a clinical knowledge graph with decision support, population health, clinical NLP, GraphRAG Q&A and FHIR interoperability for US & India clinics and hospitals." />
+<style>
+  :root{
+    --bg:#070d1a; --bg2:#0c1426; --card:#111c33; --card2:#152a4a; --line:#1e2f52;
+    --ink:#e9f0fb; --muted:#9fb1cc; --brand:#38bdf8; --brand2:#818cf8;
+    --green:#34d399; --red:#f87171; --amber:#fbbf24; --violet:#a78bfa;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:var(--brand);text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+  h1,h2,h3{line-height:1.2}
+  h2.section{font-size:1.9rem;margin:0 0 6px}
+  .sub{color:var(--muted);margin:0 0 26px;font-size:1.02rem}
+  section{padding:62px 0;border-top:1px solid var(--line)}
+  .pill{display:inline-block;padding:3px 11px;border-radius:999px;font-size:.74rem;font-weight:700}
+  .pill-high{background:#7f1d1d;color:#fecaca}.pill-moderate{background:#78350f;color:#fde68a}
+  .pill-low{background:#14532d;color:#bbf7d0}.pill-major{background:#7f1d1d;color:#fecaca}
+  .pill-supported{background:#14532d;color:#bbf7d0}.pill-config{background:#1e3a8a;color:#bfdbfe}
+  .pill-roadmap{background:#3f3f46;color:#e4e4e7}
+  .btn{display:inline-block;padding:11px 20px;border-radius:999px;font-weight:700;cursor:pointer;border:none}
+  .btn-primary{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#06121f}
+  .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+  .grid{display:grid;gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+  .muted{color:var(--muted)}
+  code{background:#0a1424;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:#a5d8ff;font-size:.86em}
+  /* Hero */
+  .hero{position:relative;overflow:hidden;border-top:none;
+        background:radial-gradient(1100px 480px at 78% -8%,rgba(56,189,248,.20),transparent 60%),
+                   radial-gradient(900px 460px at 8% 4%,rgba(129,140,248,.16),transparent 55%)}
+  .hero-badge{display:inline-block;border:1px solid var(--line);background:#0c1730;border-radius:999px;
+              padding:6px 14px;font-size:.8rem;color:var(--muted);margin-bottom:18px}
+  .hero h1{font-size:3rem;margin:.2rem 0 .4rem;letter-spacing:-.5px}
+  .hero h1 .grad{background:linear-gradient(90deg,var(--brand),var(--brand2));-webkit-background-clip:text;
+                 background-clip:text;color:transparent}
+  .hero p.lead{font-size:1.18rem;color:#cdd9ee;max-width:720px}
+  .modes{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 24px}
+  .mode{border:1px solid var(--line);background:#0c1730;border-radius:10px;padding:8px 12px;font-size:.82rem}
+  .mode b{color:var(--green)}
+  .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+  .stat .n{font-size:1.9rem;font-weight:800;color:var(--brand)}
+  .stat .l{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  /* feature grid */
+  .feat{grid-template-columns:repeat(3,1fr)}
+  .feat .ic{font-size:1.5rem}
+  .feat h3{margin:.5rem 0 .3rem;font-size:1.06rem}
+  .feat p{margin:0;color:var(--muted);font-size:.92rem}
+  /* demo */
+  .demo-grid{grid-template-columns:300px 1fr;align-items:start}
+  .plist{max-height:560px;overflow:auto;padding-right:6px}
+  .prow{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);
+        border-radius:10px;margin-bottom:8px;cursor:pointer;background:#0e1830}
+  .prow:hover{border-color:var(--brand)}
+  .prow.active{border-color:var(--brand);background:#10213f}
+  .prow .nm{font-weight:600;font-size:.9rem}
+  .prow .meta{font-size:.74rem;color:var(--muted)}
+  .chip{display:inline-block;background:#0a1424;border:1px solid var(--line);border-radius:999px;
+        padding:3px 10px;margin:3px 4px 0 0;font-size:.78rem}
+  .chip.cond{border-color:#7f1d1d52}.chip.med{border-color:#14532d52}
+  .scorecard{background:#0e1830;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+  .scorecard .v{font-size:1.5rem;font-weight:800}
+  .gap{background:#0e1830;border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:10px;
+       padding:11px 13px;margin-bottom:8px}
+  .gap.high{border-left-color:var(--red)}.gap.moderate{border-left-color:var(--amber)}.gap.low{border-left-color:var(--green)}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.3px}
+  .bar{height:9px;background:#0a1424;border-radius:999px;overflow:hidden}
+  .bar>span{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+  .filterbtn{padding:6px 13px;border-radius:999px;border:1px solid var(--line);background:#0c1730;color:var(--ink);
+             cursor:pointer;font-size:.82rem;margin-right:6px}
+  .filterbtn.active{background:var(--brand);color:#06121f;border-color:var(--brand)}
+  .catgrid{grid-template-columns:repeat(3,1fr)}
+  .catitem{background:#0e1830;border:1px solid var(--line);border-radius:10px;padding:12px}
+  .catitem .nm{font-weight:600;font-size:.9rem}
+  .catitem .st{font-size:.72rem;color:var(--muted)}
+  .ask{display:flex;gap:8px;margin-bottom:12px}
+  .ask input{flex:1;background:#0a1424;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:10px 12px}
+  ul.clean{list-style:none;padding:0;margin:0}
+  ul.clean li{padding:7px 0;border-bottom:1px solid var(--line);color:#cdd9ee}
+  ul.clean li:before{content:"✓";color:var(--green);font-weight:800;margin-right:9px}
+  .two{grid-template-columns:1fr 1fr}
+  .foot{padding:34px 0;color:var(--muted);font-size:.86rem;text-align:center}
+  .disclaimer{background:#1a1206;border:1px solid #78350f;border-radius:12px;padding:14px 16px;color:#fde68a;font-size:.86rem}
+  @media(max-width:880px){.stats{grid-template-columns:repeat(2,1fr)}.feat,.catgrid{grid-template-columns:1fr}
+    .demo-grid,.two{grid-template-columns:1fr}.hero h1{font-size:2.2rem}}
+</style>
+</head>
+<body>
+
+<!-- ============================ HERO ============================ -->
+<section class="hero">
+  <div class="wrap">
+    <span class="hero-badge">🩺 Open-source clinical platform · runs offline with zero credentials</span>
+    <h1>MediGraph&nbsp;AI<br><span class="grad">a clinical knowledge graph that thinks with you</span></h1>
+    <p class="lead">MediGraph AI unifies patients, encounters, conditions, medications, providers and
+      observations into one connected graph — then layers <b>decision support</b>, <b>population health</b>,
+      <b>clinical NLP</b>, <b>grounded GraphRAG Q&amp;A</b> and <b>FHIR interoperability</b> on top, for real
+      clinics and hospitals in the&nbsp;US and India.</p>
+    <div class="modes">
+      <div class="mode">Graph: <b>Embedded</b> ↔ Neo4j</div>
+      <div class="mode">LLM: <b>Deterministic</b> ↔ OpenAI</div>
+      <div class="mode">Data: <b>Synthetic bundled</b> ↔ Live EHR</div>
+    </div>
+    <div class="cta">
+      <a class="btn btn-primary" href="#demo">▶ Try the live demo</a>
+      <a class="btn btn-ghost" id="ghLink" href="#">★ View on GitHub</a>
+      <a class="btn btn-ghost" href="#quickstart">⚡ Run locally</a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<!-- ============================ PROBLEM / SOLUTION ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">Why a graph?</h2>
+    <p class="sub">Clinical reality is a network, but most systems store it in disconnected tables.</p>
+    <div class="grid two">
+      <div class="card">
+        <h3>The problem</h3>
+        <p class="muted">A patient's story is spread across admissions, labs, prescriptions and providers.
+          Relational silos make "which of my AF patients aren't anticoagulated?" or "who is overdue for an
+          HbA1c?" slow, brittle questions — and the answers rarely come with their evidence.</p>
+      </div>
+      <div class="card">
+        <h3>The MediGraph approach</h3>
+        <p class="muted">Model the record as a property graph, attach a curated clinical knowledge base
+          (SNOMED / ICD-10 / RxNorm / LOINC), and compute transparent, citable decision support over it.
+          Every answer can point back to the exact nodes and guidelines it came from.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ ARCHITECTURE ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">Architecture</h2>
+    <p class="sub">Pluggable at every layer — swap the data source, the graph store, or the LLM without touching clinical logic.</p>
+    <div class="card" style="overflow-x:auto">
+      <svg viewBox="0 0 1000 360" width="100%" height="auto" font-family="inherit">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/>
+          </linearGradient>
+        </defs>
+        <!-- columns -->
+        <g font-size="12" fill="#e9f0fb">
+          <!-- sources -->
+          <rect x="20" y="30" width="190" height="300" rx="12" fill="#0e1830" stroke="#1e2f52"/>
+          <text x="115" y="54" text-anchor="middle" fill="#9fb1cc" font-size="11">SOURCES &amp; CONNECTORS</text>
+          <g>
+            <rect x="38" y="70" width="154" height="32" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="50" y="90">FHIR R4 (Epic/Cerner/ABDM)</text>
+            <rect x="38" y="110" width="154" height="32" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="50" y="130">HL7 v2 · C-CDA</text>
+            <rect x="38" y="150" width="154" height="32" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="50" y="170">Snowflake · CSV</text>
+            <rect x="38" y="190" width="154" height="32" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="50" y="210">Synthetic data (bundled)</text>
+          </g>
+          <!-- canonical + graph -->
+          <rect x="250" y="30" width="220" height="300" rx="12" fill="#0e1830" stroke="#1e2f52"/>
+          <text x="360" y="54" text-anchor="middle" fill="#9fb1cc" font-size="11">CANONICAL MODEL + GRAPH</text>
+          <rect x="268" y="74" width="184" height="40" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="280" y="98">PatientRecord (FHIR-aligned)</text>
+          <rect x="268" y="126" width="184" height="40" rx="7" fill="#0b1f30" stroke="#38bdf8"/><text x="280" y="150" fill="#a5d8ff">Knowledge graph</text>
+          <text x="280" y="186" fill="#9fb1cc" font-size="11">Embedded NetworkX ↔ Neo4j</text>
+          <rect x="268" y="206" width="184" height="34" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="280" y="228">SNOMED·ICD10·RxNorm·LOINC</text>
+          <rect x="268" y="252" width="184" height="34" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="280" y="274">RBAC · Audit · De-identify</text>
+          <!-- services -->
+          <rect x="510" y="30" width="220" height="300" rx="12" fill="#0e1830" stroke="#1e2f52"/>
+          <text x="620" y="54" text-anchor="middle" fill="#9fb1cc" font-size="11">CLINICAL SERVICES</text>
+          <rect x="528" y="70" width="184" height="30" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="540" y="89">Decision support (risk, gaps)</text>
+          <rect x="528" y="106" width="184" height="30" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="540" y="125">Cohort &amp; population health</text>
+          <rect x="528" y="142" width="184" height="30" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="540" y="161">Clinical NLP (NER + negation)</text>
+          <rect x="528" y="178" width="184" height="30" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="540" y="197">GraphRAG Q&amp;A (guardrails)</text>
+          <rect x="528" y="214" width="184" height="30" rx="7" fill="#111c33" stroke="#1e2f52"/><text x="540" y="233">FHIR import / export</text>
+          <rect x="528" y="250" width="184" height="36" rx="7" fill="#0b1f30" stroke="#818cf8"/><text x="540" y="272" fill="#c7d2fe">LLM planner (mock ↔ OpenAI)</text>
+          <!-- surfaces -->
+          <rect x="770" y="30" width="210" height="300" rx="12" fill="#0e1830" stroke="#1e2f52"/>
+          <text x="875" y="54" text-anchor="middle" fill="#9fb1cc" font-size="11">SURFACES</text>
+          <rect x="788" y="86" width="174" height="70" rx="9" fill="url(#g1)"/><text x="800" y="118" fill="#06121f" font-weight="700">Streamlit clinical app</text><text x="800" y="138" fill="#06121f" font-size="11">9 role-aware workspaces</text>
+          <rect x="788" y="176" width="174" height="70" rx="9" fill="#111c33" stroke="#38bdf8"/><text x="800" y="208" fill="#a5d8ff" font-weight="700">FastAPI REST + FHIR</text><text x="800" y="228" fill="#9fb1cc" font-size="11">JWT · RBAC · /docs</text>
+        </g>
+        <g stroke="url(#g1)" stroke-width="2" fill="none" opacity=".8">
+          <path d="M210 180 H250"/><path d="M470 150 H510"/><path d="M730 150 H770"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FEATURES ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">What's inside</h2>
+    <p class="sub">Eight capabilities, one shared core. Everything below runs in the live demo.</p>
+    <div class="grid feat">
+      <div class="card"><div class="ic">🧑‍⚕️</div><h3>Patient 360 &amp; decision support</h3><p>LACE readmission, CHA₂DS₂-VASc, HAS-BLED, eGFR/CKD staging, care-gap detection and drug-interaction screening — all transparent and citable.</p></div>
+      <div class="card"><div class="ic">📈</div><h3>Population health</h3><p>Disease prevalence, HEDIS-style quality measures, utilisation and risk stratification across the whole panel.</p></div>
+      <div class="card"><div class="ic">👥</div><h3>Cohort builder</h3><p>Compose conditions, medications, demographics and lab thresholds into registries for outreach and reporting.</p></div>
+      <div class="card"><div class="ic">🕸️</div><h3>Knowledge graph</h3><p>Live subgraph exploration plus provider-network PageRank centrality and community detection.</p></div>
+      <div class="card"><div class="ic">📝</div><h3>Clinical NLP</h3><p>Dictionary NER with negation detection, SNOMED/RxNorm/LOINC mapping, and guideline linking from notes.</p></div>
+      <div class="card"><div class="ic">💬</div><h3>GraphRAG Q&amp;A</h3><p>Natural-language questions answered from graph facts with citations — and a read-only guardrail on any generated query.</p></div>
+      <div class="card"><div class="ic">🔌</div><h3>Interoperability</h3><p>FHIR R4, HL7 v2 and C-CDA adapters with vendor profiles for 35+ US &amp; India systems.</p></div>
+      <div class="card"><div class="ic">🛡️</div><h3>Security &amp; compliance</h3><p>Role-based access, JWT auth, append-only audit trail and HIPAA Safe-Harbor de-identification.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ INTERACTIVE DEMO ============================ -->
+<section id="demo">
+  <div class="wrap">
+    <h2 class="section">Live demo — real engine output</h2>
+    <p class="sub">Every number below was computed by the actual MediGraph engine over bundled synthetic patients.
+      Pick a patient to see their graph, risk scores and care gaps.</p>
+    <div class="grid demo-grid">
+      <div>
+        <div class="muted" style="font-size:.8rem;margin-bottom:8px">Patients ranked by outreach priority</div>
+        <div class="plist" id="plist"></div>
+      </div>
+      <div class="card" id="patientPanel"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ POPULATION DASHBOARD ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">Population dashboard</h2>
+    <p class="sub">Panel-level analytics a clinic or ACO uses for value-based-care reporting.</p>
+    <div class="grid two">
+      <div class="card"><h3>Quality measures</h3><div id="quality"></div></div>
+      <div class="card"><h3>Condition prevalence</h3><div id="prevalence"></div></div>
+    </div>
+    <div class="grid two" style="margin-top:16px">
+      <div class="card"><h3>Readmission-risk stratification (LACE)</h3><div id="riskbands"></div></div>
+      <div class="card"><h3>Ask the graph</h3>
+        <div class="ask"><input id="askbox" placeholder="e.g. patients with atrial fibrillation not on anticoagulant"/>
+          <button class="btn btn-primary" onclick="runAsk()">Ask</button></div>
+        <div id="askresult" class="muted">Try: <code>patients with diabetes</code>, <code>afib not on anticoagulant</code>, <code>most common conditions</code></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONNECTORS ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">Connects to the systems clinics &amp; hospitals actually use</h2>
+    <p class="sub">Integration converges on a few standards — so one set of adapters covers the long tail of US &amp; India vendors.</p>
+    <div style="margin-bottom:16px">
+      <button class="filterbtn active" data-c="All" onclick="filterCat(this)">All</button>
+      <button class="filterbtn" data-c="US" onclick="filterCat(this)">🇺🇸 United States</button>
+      <button class="filterbtn" data-c="IN" onclick="filterCat(this)">🇮🇳 India</button>
+      <button class="filterbtn" data-c="Global" onclick="filterCat(this)">🌐 Global standards</button>
+    </div>
+    <div class="grid catgrid" id="catgrid"></div>
+  </div>
+</section>
+
+<!-- ============================ USE CASES ============================ -->
+<section>
+  <div class="wrap">
+    <h2 class="section">Who it's for</h2>
+    <div class="grid feat">
+      <div class="card"><h3>🏥 Hospitals</h3><ul class="clean"><li>Readmission-risk targeting at discharge</li><li>GDMT &amp; anticoagulation gap closure</li><li>FHIR/HL7 integration with the EHR</li></ul></div>
+      <div class="card"><h3>🩺 Small clinics</h3><ul class="clean"><li>Diabetes &amp; hypertension registries</li><li>One-click care-gap worklist</li><li>CSV / ABDM onboarding, no big IT lift</li></ul></div>
+      <div class="card"><h3>📊 ACOs &amp; payers</h3><ul class="clean"><li>HEDIS-style quality measurement</li><li>Population risk stratification</li><li>De-identified analytics for teams</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ QUICKSTART ============================ -->
+<section id="quickstart">
+  <div class="wrap">
+    <h2 class="section">Run it in two minutes</h2>
+    <p class="sub">No database, no API key — the offline demo is the default.</p>
+    <div class="card">
+<pre style="margin:0;overflow-x:auto;color:#cfe3ff;font-size:.9rem"><code>git clone https://github.com/AravindB98/medigraph-ai.git
+cd medigraph-ai
+pip install -r requirements.txt
+
+# Clinical UI  →  http://localhost:8501
+streamlit run ui/streamlit_app.py
+
+# REST + FHIR API  →  http://localhost:8000/docs
+uvicorn medigraph.api.main:app --reload</code></pre>
+    </div>
+    <p class="muted" style="margin-top:14px">Sign in with a demo role (clinician / nurse / analyst / admin / auditor).
+      Add a <code>.env</code> later to connect live Neo4j, Snowflake or OpenAI — each independently.</p>
+    <div class="disclaimer" style="margin-top:18px">⚕️ <b>Research &amp; demonstration software.</b> Not a certified medical device;
+      not FDA/CDSCO cleared. All bundled data is synthetic. Risk scores and AI answers are decision-support aids,
+      not a substitute for clinical judgement.</div>
+  </div>
+</section>
+
+<div class="foot wrap">
+  MediGraph AI · built by Aravind Balaji · MIT licensed ·
+  <span id="footMode"></span>
+</div>
+
+<script src="assets/data.js"></script>
+<script>
+const GH = "https://github.com/AravindB98/medigraph-ai"; // update to your repo URL
+const D = window.MEDIGRAPH_DATA || {meta:{},population:{},patients:[],catalog:[]};
+document.getElementById('ghLink').href = GH;
+
+// ---- stats ----
+(function(){
+  const m=D.meta||{}; const cs=m.country_split||{};
+  const stats=[["Graph nodes",(m.nodes||0).toLocaleString()],["Relationships",(m.relationships||0).toLocaleString()],
+    ["Synthetic patients",(m.patients_total||0)],["US + India",(cs.US||0)+" + "+(cs.IN||0)]];
+  document.getElementById('stats').innerHTML=stats.map(s=>`<div class="stat"><div class="n">${s[1]}</div><div class="l">${s[0]}</div></div>`).join('');
+  const md=D.meta||{}; document.getElementById('footMode').textContent=`v${md.version||''} · ${(md.nodes||0).toLocaleString()} nodes`;
+})();
+
+// ---- patient list + panel ----
+const plist=document.getElementById('plist');
+function sevClass(s){return s;}
+function renderList(){
+  plist.innerHTML=(D.patients||[]).map((p,i)=>`
+    <div class="prow ${i===0?'active':''}" data-i="${i}" onclick="selectPatient(${i})">
+      <div><div class="nm">${p.name}</div><div class="meta">${p.age}y · ${p.sex} · ${p.country} · ${p.conditions.length} dx</div></div>
+      <div><span class="pill pill-${p.priority>=10?'high':p.priority>=5?'moderate':'low'}">${p.priority}</span></div>
+    </div>`).join('');
+}
+function miniGraph(p){
+  const cx=150,cy=150,r=110; const items=[];
+  p.conditions.slice(0,5).forEach(c=>items.push({t:c.name,col:'#f87171'}));
+  p.medications.slice(0,5).forEach(m=>items.push({t:m.name,col:'#34d399'}));
+  const n=items.length||1;
+  let edges='',nodes='';
+  items.forEach((it,k)=>{
+    const a=(2*Math.PI*k/n)-Math.PI/2; const x=cx+r*Math.cos(a),y=cy+r*Math.sin(a);
+    edges+=`<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="#27406b" stroke-width="1.4"/>`;
+    nodes+=`<circle cx="${x}" cy="${y}" r="7" fill="${it.col}"/>
+      <text x="${x}" y="${y-11}" text-anchor="middle" font-size="9" fill="#cdd9ee">${it.t.length>16?it.t.slice(0,15)+'…':it.t}</text>`;
+  });
+  return `<svg viewBox="0 0 300 300" width="100%" height="240">${edges}
+    <circle cx="${cx}" cy="${cy}" r="13" fill="#38bdf8"/><text x="${cx}" y="${cy+28}" text-anchor="middle" font-size="10" fill="#a5d8ff">Patient</text>
+    ${nodes}</svg>`;
+}
+function selectPatient(i){
+  document.querySelectorAll('.prow').forEach(e=>e.classList.toggle('active',+e.dataset.i===i));
+  const p=D.patients[i]; const panel=document.getElementById('patientPanel');
+  const scores=p.risk_scores.map(s=>`<div class="scorecard"><div class="muted" style="font-size:.74rem">${s.name}</div>
+     <div class="v" style="color:${s.band==='high'?'#f87171':s.band==='moderate'?'#fbbf24':'#34d399'}">${s.score}${s.unit?' '+s.unit:''}</div>
+     <span class="pill pill-${s.band}">${s.band}</span></div>`).join('');
+  const gaps=p.care_gaps.length?p.care_gaps.map(g=>`<div class="gap ${g.severity}"><span class="pill pill-${g.severity}">${g.severity}</span>
+     <b> ${g.title}</b><br><span class="muted" style="font-size:.85rem">${g.detail} → <i>${g.recommendation}</i> · ${g.guideline}</span></div>`).join('')
+     :'<div class="muted">No open care gaps.</div>';
+  const ix=p.interactions.length?p.interactions.map(x=>`<div class="gap high"><span class="pill pill-major">${x.severity}</span>
+     <b> ${x.a} + ${x.b}</b><br><span class="muted" style="font-size:.85rem">${x.management}</span></div>`).join('')
+     :'<div class="muted">No drug–drug interactions.</div>';
+  panel.innerHTML=`
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div><h3 style="margin:0">${p.name}</h3><div class="muted">${p.age}y · ${p.sex} · ${p.city||''} (${p.country})</div></div>
+      <div><span class="pill pill-${p.priority>=10?'high':p.priority>=5?'moderate':'low'}">priority ${p.priority}</span></div>
+    </div>
+    <div class="grid two" style="margin-top:14px;align-items:start">
+      <div>
+        <div class="muted" style="font-size:.78rem;margin-bottom:4px">PROBLEMS</div>
+        ${p.conditions.map(c=>`<span class="chip cond">${c.name}</span>`).join('')||'<span class="muted">none</span>'}
+        <div class="muted" style="font-size:.78rem;margin:12px 0 4px">MEDICATIONS</div>
+        ${p.medications.map(m=>`<span class="chip med">${m.name}</span>`).join('')||'<span class="muted">none</span>'}
+        <div class="muted" style="font-size:.78rem;margin:12px 0 4px">KNOWLEDGE GRAPH</div>
+        ${miniGraph(p)}
+      </div>
+      <div>
+        <div class="muted" style="font-size:.78rem;margin-bottom:6px">RISK SCORES</div>
+        <div class="grid" style="grid-template-columns:1fr 1fr;gap:8px">${scores}</div>
+        <div class="muted" style="font-size:.78rem;margin:14px 0 6px">CARE GAPS</div>${gaps}
+        <div class="muted" style="font-size:.78rem;margin:14px 0 6px">INTERACTIONS</div>${ix}
+      </div>
+    </div>`;
+}
+renderList(); if((D.patients||[]).length) selectPatient(0);
+
+// ---- population dashboard ----
+(function(){
+  const q=D.population.quality||[];
+  document.getElementById('quality').innerHTML='<table><tr><th>Measure</th><th>Rate</th><th></th></tr>'+
+    q.map(m=>`<tr><td>${m.name}</td><td>${m.rate}%</td><td style="width:120px"><div class="bar"><span style="width:${m.rate}%"></span></div></td></tr>`).join('')+'</table>';
+  const pv=D.population.prevalence||[];
+  const max=Math.max(...pv.map(x=>x.patients),1);
+  document.getElementById('prevalence').innerHTML='<table><tr><th>Condition</th><th>Patients</th><th></th></tr>'+
+    pv.map(x=>`<tr><td>${x.condition}</td><td>${x.patients}</td><td style="width:120px"><div class="bar"><span style="width:${100*x.patients/max}%"></span></div></td></tr>`).join('')+'</table>';
+  const rb=D.population.risk_bands||{};
+  const tot=(rb.high||0)+(rb.moderate||0)+(rb.low||0)||1;
+  document.getElementById('riskbands').innerHTML=
+    ['high','moderate','low'].map(b=>`<div style="margin-bottom:10px"><div style="display:flex;justify-content:space-between">
+      <span class="pill pill-${b}">${b}</span><b>${rb[b]||0}</b></div>
+      <div class="bar" style="margin-top:5px"><span style="width:${100*(rb[b]||0)/tot}%"></span></div></div>`).join('')+
+      `<div class="muted" style="margin-top:8px;font-size:.85rem">${D.population.total_care_gaps} open care gaps · ${D.population.total_interactions} interaction alerts across the panel.</div>`;
+})();
+
+// ---- connector catalog ----
+let catFilter='All';
+function renderCat(){
+  const items=(D.catalog||[]).filter(e=>catFilter==='All'||e.country===catFilter);
+  document.getElementById('catgrid').innerHTML=items.map(e=>`
+    <div class="catitem"><div style="display:flex;justify-content:space-between;gap:6px">
+      <span class="nm">${e.name}</span><span class="pill pill-${e.status}">${e.status}</span></div>
+      <div class="st">${e.country} · ${e.category} · ${e.standard}</div></div>`).join('');
+}
+function filterCat(btn){document.querySelectorAll('.filterbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');catFilter=btn.dataset.c;renderCat();}
+renderCat();
+
+// ---- mini client-side Q&A over the loaded patients ----
+function runAsk(){
+  const q=(document.getElementById('askbox').value||'').toLowerCase();
+  const out=document.getElementById('askresult');
+  const all=D.patients||[];
+  const condMap={diabetes:'t2dm',hypertension:'htn',afib:'afib','atrial fibrillation':'afib',ckd:'ckd',
+    'kidney':'ckd',cad:'cad','coronary':'cad',copd:'copd','heart failure':'chf'};
+  let key=null; for(const k in condMap){if(q.includes(k)){key=condMap[k];break;}}
+  if(q.includes('most common')){
+    const pv=(D.population.prevalence||[]).slice(0,5).map(x=>`${x.condition} (${x.patients})`).join(', ');
+    out.innerHTML=`<b>Most common conditions:</b> ${pv}`;return;
+  }
+  if(!key){out.innerHTML='Try a condition, e.g. <code>patients with diabetes</code>.';return;}
+  let res=all.filter(p=>p.conditions.some(c=>c.key===key));
+  let note='';
+  if(q.includes('not on')||q.includes('without')||q.includes('anticoag')){
+    res=res.filter(p=>!p.medications.some(m=>['warfarin','apixaban'].includes(m.key)));
+    note=' not on an anticoagulant';
+  }
+  out.innerHTML=`<b>${res.length}</b> demo patients with this condition${note}:<br>`+
+    res.slice(0,8).map(p=>`<span class="chip">${p.name}</span>`).join('')+
+    `<div class="muted" style="margin-top:6px;font-size:.8rem">Citations: ${res.slice(0,3).map(p=>'Patient/'+p.id).join(', ')}…</div>`;
+}
+</script>
+</body>
+</html>
