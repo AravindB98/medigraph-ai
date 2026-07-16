@@ -199,3 +199,30 @@ SMART-on-FHIR launch, TEFCA/QHIN query, OMOP CDM export, vector/semantic retriev
 MediGraph AI is **research and demonstration software** — not a certified medical device, and not FDA/CDSCO cleared. All bundled data is **synthetic** and contains no real PHI. Risk scores, care-gap alerts and AI answers are decision-support aids and must not replace the judgement of a qualified clinician.
 
 Built by **Aravind Balaji** · MIT licensed.
+
+---
+
+## 🧒 Explain Like I'm 5
+
+A doctor's assistant that works without internet: it holds a giant connect-the-dots map of medical knowledge (diseases ↔ symptoms ↔ drugs ↔ interactions) and plugs into hospital record systems, so clinicians in low-connectivity places still get decision support.
+
+## 🧰 Tech Stack
+
+Python · clinical knowledge graph · FHIR / HL7 / C-CDA connectors · offline-first architecture · decision-support engine
+
+## ▶️ Getting Started — Reproduce It Yourself
+
+1. Clone the repo: `git clone https://github.com/AravindB98/medigraph-ai.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Follow the setup notes above to load the knowledge graph and start the decision-support service
+
+## 🤝 Contributing
+
+Contributions of every size are welcome!
+
+1. ⭐ **Star this repo** — it helps more people discover the project.
+2. 🍴 **Fork it** and create a feature branch (`git checkout -b feature/your-idea`).
+3. Commit your changes with clear messages.
+4. Open a Pull Request describing what you improved and why.
+
+Found a bug or have an idea? [Open an issue](https://github.com/AravindB98/medigraph-ai/issues). And if this project helped you, please **star ⭐ and fork 🍴** — it genuinely helps the project grow.
